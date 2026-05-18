@@ -1,16 +1,72 @@
-/* Home/Header */
+/* Bloque obligatorio para texto normal y negritas */
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./assets/fonts/SourceSans3-VariableFont_wght.ttf') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 
-/* Disposición automática */
-/* display: flex;
-flex-direction: row;
-align-items: flex-end;
-padding: 0px;
+/* Bloque obligatorio para el texto en cursiva */
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
 
-position: absolute;
-width: 285px;
-height: 61px;
-left: 53px;
-top: 310px; */
+:root {
+  --paragraph-color: #1D2128;
+  --text-button-color: #FFFFFF;
+  --gradient: linear-gradient(90deg, #873AAA 0%, #DF007F 100%);
+
+  --font: 'Source Sans Pro', sans-serif;
+}
+
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.paragraph-hero{
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--paragraph-color);
+  text-align: center;
+}
+
+.join-button {
+  display: inline-block;
+  width: 324px;
+  height: 52px;
+  background: var(--gradient);
+  /* transition: background-color 0.3s ease; */
+
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-button-color);
+  text-align: center;
+}
+
+
+/* Hero/Paragraph */
+
+/* position: absolute;
+width: 339px;
+height: 99px;
+left: 27px;
+top: 426px; */
+
+
+/* HATA AQUÍ */
 
 
 
