@@ -24,13 +24,29 @@
   --font: 'Source Sans Pro', sans-serif;
 }
 
-*, ::before, ::after{
+*, ::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.paragraph-hero{
+.container-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-welcome {
+  margin-top: clamp(40px, 36.4vh, 310px);
+  /* margin-top: 310px; */
+  width: 285px;
+}
+
+.paragraph-hero {
+  width: 339px;
+  height: 99px;
+  margin-top: 50px;
   font-family: var(--font);
   font-weight: 400;
   font-size: 20px;
@@ -39,8 +55,15 @@
   text-align: center;
 }
 
+.join-button-welcome {
+  margin: auto auto 40px;
+
+}
+
 .join-button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 324px;
   height: 52px;
   background: var(--gradient);
@@ -53,7 +76,6 @@
   font-size: 18px;
   line-height: 28px;
   color: var(--text-button-color);
-  text-align: center;
 }
 
 
