@@ -21,6 +21,13 @@
   --text-button-color: #FFFFFF;
   --gradient: linear-gradient(90deg, #873AAA 0%, #DF007F 100%);
 
+  --border-nav: #000000;
+  --shadow-nav-1: #171A1F12;
+  --shadow-nav-2: #171A1F1F;
+  --font-color-nav: #565E6C;
+  --font-color-nav-special: #CE0A86;
+
+
   --font: 'Source Sans Pro', sans-serif;
 }
 
