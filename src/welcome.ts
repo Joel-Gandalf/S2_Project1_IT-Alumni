@@ -1,10 +1,11 @@
+import './welcome.css'
 import logoUrl from '/src/assets/icons/Header.svg';
 
 export const showWelcomePage = () => {
     const welcomePage = document.getElementById('insertWelcomePage');
-    
-    if (welcomePage){
-        welcomePage.innerHTML =    ` <div class="container-welcome">
+
+    if (welcomePage) {
+        welcomePage.innerHTML = ` <div class="container-welcome">
       <header>
         <img src="${logoUrl}" alt="nombre de la aplicación: alumni" class="logo-welcome">
       </header>
@@ -16,5 +17,5 @@ export const showWelcomePage = () => {
       </section>
     </div> 
 `;
-    }  
+    }
 }
