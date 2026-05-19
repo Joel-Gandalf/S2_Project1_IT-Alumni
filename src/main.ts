@@ -1,5 +1,6 @@
 import './style.css';
-import { showWelcomePage } from './welcome'; 
+import { showWelcomePage } from './welcome';
+import { showNavBar } from './nav-bar';
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -9,21 +10,21 @@ const renderApp = () => {
     if (mediaQuery.matches) {
         showWelcomePage();
     } else {
-        showDesktopPage(); 
+        showNavBar(); 
     }
 };
 
 // Función temporal para la vista de escritorio
-const showDesktopPage = () => {
-    const container = document.getElementById('insertWelcomePage');
-    if (container) {
-        container.innerHTML = `
-            <div style="display:flex; justify-content:center; align-items:center; height:100vh;">
-                <h1>Versión de Escritorio de IT ALUMNI (Próximamente)</h1>
-            </div>
-        `;
-    }
-};
+// const showDesktopPage = () => {
+//     const container = document.getElementById('insertWelcomePage');
+//     if (container) {
+//         container.innerHTML = `
+//             <div style="display:flex; justify-content:center; align-items:center; height:100vh;">
+//                 <h1>Versión de Escritorio de IT ALUMNI (Próximamente)</h1>
+//             </div>
+//         `;
+//     }
+// };
 
 // 3. SEÑAL EN VIVO: Escucha constantemente si la pantalla cruza el límite de tamaño
 // Usamos .addEventListener('change', ...) que es el estándar moderno
