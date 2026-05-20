@@ -4,7 +4,7 @@ import iconRegisterUrl from "/src/assets/icons/Navbar/register.svg";
 import iconProfileUrl from "/src/assets/icons/Navbar/profile.svg";
 
 export const showNavBar = () => {
-  const navBar = document.getElementById('insertNavBar');
+  const navBar = document.getElementById('insertApp');
 
   if (navBar) {
     navBar.innerHTML = ` <header class="container-nav-bar">

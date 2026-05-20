@@ -2,7 +2,7 @@ import './welcome.css'
 import logoUrl from '/src/assets/icons/Header.svg';
 
 export const showWelcomePage = () => {
-    const welcomePage = document.getElementById('insertWelcomePage');
+    const welcomePage = document.getElementById('insertApp');
 
     if (welcomePage) {
         welcomePage.innerHTML = ` <div class="container-welcome">

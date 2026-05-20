@@ -7,7 +7,6 @@
 
 .logo-welcome {
   margin-top: clamp(40px, 36.4vh, 310px);
-  /* margin-top: 310px; */
   width: 285px;
 }
 
@@ -35,7 +34,6 @@
   width: 324px;
   height: 52px;
   background: var(--gradient);
-  /* transition: background-color 0.3s ease; */
 
   border-radius: 6px;
   text-decoration: none;

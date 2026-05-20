@@ -12,7 +12,7 @@
 
 .logo-nav-bar {
     width: 110px;
-    margin-left: 42px;
+    margin-left: clamp(10px, 4vw, 42px);
     padding-bottom: 12px;
 }
 
@@ -20,8 +20,8 @@
     display: flex;
     align-items: center;
     height: 100%;
-    gap: 70px;
-    margin: auto auto auto 100px;
+    gap: clamp(15px, 2.8vw, 60px);
+    margin: auto auto auto clamp(20px, 5.5vw, 100px);
     list-style-type: none;
 }
 
@@ -32,6 +32,8 @@
 .navigation-menu a{
     display: flex;
     align-items: center;
+    justify-content: center;
+    min-width: 65px;
     text-decoration: none;
     color: var(--font-color-nav);
     height: 100%;
@@ -52,7 +54,7 @@
     align-items: center;
     justify-content: space-between;
     width: 347px;
-    margin-right: 40px;
+    margin-right: clamp(20px, 3vw, 40px);
 }
 
 .navigation-buttons * {
@@ -75,7 +77,6 @@
 }
 
 .profile-button{
-    /* border: 1px solid var(--border-nav); */
     color: var(--text-button-color);
     background: var(--gradient);
 }
