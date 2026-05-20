@@ -18,8 +18,8 @@ export const showMainHomeLaptop = () => {
       <h1>Benvingut, Alumni</h1>
       <p>Connectant i empoderant a la nostra comunitat global d’alumnes</p>
       <div class="buttons-hero">
-        <a class="button-register" href="#" aria-label="link a registro">Uneix-te</a>
-        <a class="button-info" href="#" aria-label="link a información sobre el proyecto">Mira que fem</a>
+        <a class="button-register-hero" href="#" aria-label="link a registro">Uneix-te</a>
+        <a class="button-info-hero" href="#" aria-label="link a información sobre el proyecto">Mira que fem</a>
       </div>
       <img src="${imgHero}" alt="Reunión entre estudiantes">
     </section>
@@ -59,45 +59,57 @@ export const showMainHomeLaptop = () => {
       <div class="opinions-cards">
 
         <div class="opinion-card">
-          <img class="foto-opinion-card" src="${imgJhoni}" alt="Foto perfil Mikel">
-          <p class="user-name">Mikel</p>
-          <div class="rating">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}${iconStar}">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
+          <div class="flex-card">
+              <img class="foto-opinion-card-1" src="${imgJhoni}" alt="Foto perfil Mikel">
+              <div class="flex-rating">
+                  <p>Mikel</p>
+                  <div class="rating">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                  </div>
+              </div>
           </div>
-          <p class="opinion-paragraph">"Gràcies a IT Alumni vaig aconseguir la feina dels meus somnis en el món tech amb
+          <p class="user-card-paragraph">"Gràcies a IT Alumni vaig aconseguir la feina dels meus somnis en el món tech amb
             el seu increïble programa de mentoria."</p>
         </div>
 
         <div class="opinion-card">
-          <img class="foto-opinion-card" src="${imgEmma}" alt="Foto perfil Emma">
-          <p class="user-name">Emma</p>
-          <div class="rating">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
+          <div class="flex-card">
+              <img class="foto-opinion-card-2" src="${imgEmma}" alt="Foto perfil Emma">
+              <div class="flex-rating">
+                  <p>Emma</p>
+                  <div class="rating">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                  </div>
+              </div>
           </div>
-          <p class="opinion-paragraph">Participa en discussions: Intercanvia coneixements, punts de vista i opinions
+          <p class="user-card-paragraph">Participa en discussions: Intercanvia coneixements, punts de vista i opinions
             sobre
             temes que t'interessen.</p>
         </div>
 
         <div class="opinion-card">
-          <img class="foto-opinion-card" src="${imgJhoni}" alt="Foto perfil Laia">
-          <p class="user-name">Laia</p>
-          <div class="rating">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
-            <img src="${iconStar}" alt="Estrella de valoración">
+          <div class="flex-card">
+              <img class="foto-opinion-card-3" src="${imgJhoni}" alt="Foto perfil Laia">
+              <div class="flex-rating">
+                  <p>Laia</p>
+                  <div class="rating">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                    <img src="${iconStar}" alt="Estrella de valoración">
+                  </div>
+              </div>
           </div>
-          <p class="opinion-paragraph">"IT Alumni em va donar les eines i l’autoestima per fer realitat el meu somni
+          <p class="user-card-paragraph">"IT Alumni em va donar les eines i l’autoestima per fer realitat el meu somni
             d’emprendre."</p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import './style.css';
 import { showWelcomePage } from './welcome';
 import { showNavBar } from './nav-bar';
+import { showMainHomeLaptop } from "./main-home-laptop";
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -10,7 +11,8 @@ const renderApp = () => {
     if (mediaQuery.matches) {
         showWelcomePage();
     } else {
-        showNavBar(); 
+        showNavBar();
+        showMainHomeLaptop(); 
     }
 };
 

@@ -27,6 +27,14 @@
   --font-color-nav: #565E6C;
   --font-color-nav-special: #CE0A86;
 
+  --font-color-h1: #171A1F;
+  --button-register-color: #FEF0F9;
+  --background-img-color-1: #F1D1E8;
+  --background-img-color-2: #FBAEBC;
+  --background-img-border-color-1: #D26BB4;
+  --background-img-border-color-2: #C90B2F;
+  --font-user-name-color: #323842;
+  --background-card-color: #DEE1E6;
 
   --font: 'Source Sans Pro', sans-serif;
 }
@@ -35,6 +43,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font);
 }
 
 

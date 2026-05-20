@@ -1,0 +1,186 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1156px;
+    margin-bottom: 60px;
+}
+
+.hero h1 {
+    color: var(--font-color-h1);
+    font-size: 64px;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 84px;
+    text-align: center;
+    height: 168px;
+    margin-top: 96px;
+}
+
+.hero p {
+    color: var(--paragraph-color);
+    font-size: 20px;
+    line-height: 30px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.buttons-hero {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons-hero a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button-register-hero {
+    background: var(--gradient);
+    color: var(--text-button-color);
+}
+
+.button-info-hero{
+    border: 1px solid var(--font-color-nav-special);
+    color: var(--font-color-nav-special);
+}
+
+.hero img {
+    width: 1176px;
+    margin-top: 100px;
+    border-radius: 16px;
+}
+
+.benefits {
+    height: 502px;
+}
+
+.benefits h2 {
+    color: var(--font-color-h1);
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    height: 88px;
+}
+
+.benefits-cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.benefit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 238px;
+}
+
+.benefit-card p{
+    text-align: center;
+    font-size: 16px;
+    color: var(--font-color-nav);
+}
+
+.benefit-card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 140px;
+    height: 44px;
+    background: var(--button-register-color);
+    color: var(--font-color-nav-special);
+    border-radius: 10px;
+}
+
+.benefit-card a:hover {
+    background: var(--gradient);
+    color: var(--text-button-color);
+}
+
+.opinions {
+    height: 570px;
+}
+
+.opinions h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 50px;
+}
+
+.opinions-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.opinion-card {
+    width: 371px;
+    height: 214px;
+    box-shadow: 0px 0px 1px 0px var(--shadow-nav-1), 0px 0px 2px 0px var(--shadow-nav-2);
+    border-radius: 16px;
+    padding: 25px 25px;
+}
+
+.flex-card {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-card > img {
+    border-radius: 50%;
+}
+
+.foto-opinion-card-1, .foto-opinion-card-3 {
+    background: var(--background-img-color-1);
+    box-shadow: inset 0 0 0 0.3px var(--background-img-border-color-1);
+}
+
+.foto-opinion-card-2 {
+    background: var(--background-img-color-2);
+    box-shadow: inset 0 0 0 0.3px var(--background-img-border-color-2);
+}
+
+.flex-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-rating p {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    color: var(--font-user-name-color);
+}
+
+.rating {
+    display: flex;
+}
+
+.user-card-paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--font-color-h1);
+}
+
+.opinion-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
