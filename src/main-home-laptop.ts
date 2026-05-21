@@ -1,5 +1,5 @@
 import "./main-home-laptop.css";
-import imgHero from "/src/assets/images/Image 28.png";
+import videoHero from "/src/assets/video/6761146-uhd_3840_2160_25fps.mp4";
 import iconHat from "/src/assets/icons/Benefits/Card_1/Hat.svg";
 import iconBabbling from "/src/assets/icons/Benefits/Card_2/Babbling.svg";
 import iconPerson from "/src/assets/icons/Benefits/Card_3/person.svg";
@@ -21,7 +21,11 @@ export const showMainHomeLaptop = () => {
         <a class="button-register-hero" href="#" aria-label="link a registro">Uneix-te</a>
         <a class="button-info-hero" href="#" aria-label="link a información sobre el proyecto">Mira que fem</a>
       </div>
-      <img src="${imgHero}" alt="Reunión entre estudiantes">
+      <video class= "video-box" autoplay muted loop playsinline controls>
+        <source src="${videoHero}" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+      
     </section>
 
     <section class="benefits">
