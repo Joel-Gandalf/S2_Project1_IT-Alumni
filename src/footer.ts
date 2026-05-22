@@ -14,8 +14,10 @@ export const showFooter = () => {
     <section class="subscription-newsletter">
       <p>"No et perdis res, subscriu-te!"</p>
       <form class="form-footer" method="post">
-        <img src="${iconRegisterfooter}" alt="Icono de mensajería">
-        <label for="email"><input id="email" type="email" placeholder="El teu email" aria-label="Escribe aquí tú email"></label>
+        <div class="input-email">
+            <img src="${iconRegisterfooter}" alt="Icono de mensajería">
+            <label for="email"><input id="email" type="email" placeholder="El teu email" aria-label="Escribe aquí tú email"></label>
+        </div>
         <input type="submit" value="Subscriu-te" aria-label="Botón para suscribirse">
       </form>
     </section>
@@ -39,16 +41,16 @@ export const showFooter = () => {
 
     <section class="extras-footer">
       <select name="language" id="language" aria-label="Selecciona un lenguaje para la página" >
-        <option value="catalain" selected>Català</option>
+        <option value="catalain" selected hidden>Català</option>
         <option value="spanish">Castellano</option>
-        <option value="inglish">Inglés</option>
+        
       </select>
       <div class="brand-text">
         <ul>
           <li>© 2024 Brand, Inc.</li>
-          <li><a href="#" aria-label="Link a terminos de privacidad">• Privadesa</a></li>
-          <li><a href="#" aria-label="Link a terminos de uso">• Termes d'ús</a></li>
-          <li><a href="#" aria-label="Link a mapa del sitio">• Mapa del lloc</a></li>
+          <li><a href="#" aria-label="Link a terminos de privacidad">Privadesa</a></li>
+          <li><a href="#" aria-label="Link a terminos de uso">Termes d'ús</a></li>
+          <li><a href="#" aria-label="Link a mapa del sitio">Mapa del lloc</a></li>
         </ul>
       </div>
       <div class="social-networks" aria-label="links a nuestras redes sociales">
@@ -60,5 +62,18 @@ export const showFooter = () => {
 
   </footer>
 `;
+
+    const selectLang = document.getElementById('language') as HTMLSelectElement;
+
+    if (selectLang) {
+      selectLang.addEventListener('change', () => {
+        // 1. Volvemos a mostrar todas las opciones primero
+        Array.from(selectLang.options).forEach(opt => opt.removeAttribute('hidden'));
+
+        // 2. Ocultamos únicamente la opción que el usuario acaba de seleccionar
+        const selectedOption = selectLang.options[selectLang.selectedIndex];
+        selectedOption.setAttribute('hidden', 'true');
+      });
+    }
   }
 }
