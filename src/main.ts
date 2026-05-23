@@ -13,8 +13,8 @@ const renderApp = () => {
         showWelcomePage();
     } else {
         showNavBar();
-        showMainHomeLaptop();
-        showFooter();
+        // showMainHomeLaptop();
+        // showFooter();
     }
 };
 
