@@ -7,17 +7,19 @@ export const showNavBar = () => {
   const navBar = document.getElementById('insertApp');
 
   if (navBar) {
-    navBar.innerHTML = ` <header class="container-nav-bar">
+    navBar.innerHTML = ` <header class="container-header">
       <img src="${logoUrl}" alt="nombre de la aplicación: alumni" class="logo-nav-bar">
-      <ul class="navigation-menu" aria-label="Menú de navegación">
-        <li><a href="#" aria-label="Ir a inicio">Inici</a></li>
-        <li><a href="#" aria-label="Ir a red de exalumnos">Xarxa</a></li>
-        <li><a href="#" aria-label="Ir a ofertas laborales">Oportunitas de feina</a></li>
-      </ul>
-      <div class="navigation-buttons" aria-label="Botones de navegación">
-        <a href="#" class="register-button button"><img src="${iconRegisterUrl}" alt="Icono suscribirse">Apunta't</a>
-        <a href="#" class="profile-button button"><img src="${iconProfileUrl}" alt="Icono editar perfil">Com et veuen?</a>
-      </div>
+      <nav class="container-nav-bar">
+        <ul class="navigation-menu" aria-label="Menú de navegación">
+          <li><a href="#" aria-label="Ir a inicio">Inici</a></li>
+          <li><a href="#" aria-label="Ir a red de exalumnos">Xarxa</a></li>
+          <li><a href="#" aria-label="Ir a ofertas laborales">Oportunitas de feina</a></li>
+        </ul>
+        <div class="navigation-buttons" aria-label="Botones de navegación">
+          <a href="#" class="register-button button"><img src="${iconRegisterUrl}" alt="Icono suscribirse">Apunta't</a>
+          <a href="#" class="profile-button button"><img src="${iconProfileUrl}" alt="Icono editar perfil">Com et veuen?</a>
+        </div>
+      </nav>
     </header>
 `;
   }
