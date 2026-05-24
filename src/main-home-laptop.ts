@@ -21,7 +21,7 @@ export const showMainHomeLaptop = () => {
         <a class="button-register-hero" href="#" aria-label="link a registro">Uneix-te</a>
         <a class="button-info-hero" href="#" aria-label="link a información sobre el proyecto">Mira que fem</a>
       </div>
-      <video class= "video-box" autoplay muted loop playsinline controls>
+      <video class= "video-box" autoplay muted loop playsinline controls aria-label="Video de una reunión de exalumnos">
         <source src="${videoHero}" type="video/mp4">
         Tu navegador no soporta la etiqueta de video.
       </video>
@@ -60,7 +60,7 @@ export const showMainHomeLaptop = () => {
     <section class="opinions">
       <h2>"T'ensenyem el que opinen els nostres súper-usuaris!”</h2>
 
-      <div class="opinions-cards">
+      <div class="opinions-cards" aria-label="Carrusel con tarjetas de opinion y valoración de exalumnos>
 
         <div class="opinion-card">
           <div class="flex-card">
@@ -118,7 +118,7 @@ export const showMainHomeLaptop = () => {
         </div>
       </div>
 
-      <div class="opinion-buttons">
+      <div class="opinion-buttons" aria-label="Botones desplazamiento horizontal del carrusel>
         <img src="${iconBack}" alt="Botón atrás carrusel opiniones">
         <img src="${iconNext}" alt="Botón adelante carrusel opiniones">
       </div>

@@ -1,6 +1,6 @@
 import './style.css';
 import { showWelcomePage } from './welcome';
-import { showNavBar } from './nav-bar';
+import { createNavBar } from './nav-bar';
 import { showMainHomeLaptop } from "./main-home-laptop";
 import { showFooter } from "./footer";
 
@@ -12,7 +12,7 @@ const renderApp = () => {
     if (mediaQuery.matches) {
         showWelcomePage();
     } else {
-        showNavBar();
+        createNavBar();
         showMainHomeLaptop();
         showFooter();
     }
