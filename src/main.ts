@@ -1,5 +1,5 @@
 import './style.css';
-import { showWelcomePage } from './welcome';
+import { createWelcomePage } from './welcome';
 import { createNavBar } from './nav-bar';
 import { createMainHomeLaptop } from "./main-home-laptop";
 import { createFooter } from "./footer";
@@ -10,7 +10,7 @@ const mediaQuery = window.matchMedia('(max-width: 767px)');
 const renderApp = () => {
     // 2. Evaluamos si en este instante preciso coincide con un móvil
     if (mediaQuery.matches) {
-        showWelcomePage();
+        createWelcomePage();
     } else {
         createNavBar();
         createMainHomeLaptop();
