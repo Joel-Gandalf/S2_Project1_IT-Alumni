@@ -8,12 +8,12 @@ import imgEmma from "/src/assets/images/Opinions/Card_2/Emma.png";
 import iconStar from "/src/assets/icons/Opinions/Frame.svg";
 import iconBack from "/src/assets/icons/Opinions/Buttons/Back.png";
 import iconNext from "/src/assets/icons/Opinions/Buttons/Next.png";
-  
-export const showMainHomeLaptop = () => {
-  const mainHomeLaptop = document.getElementById('insertApp');
 
-  if (mainHomeLaptop) {
-    mainHomeLaptop.innerHTML = ` <main>
+export const createMainHomeLaptop = (): Element | null => {
+
+  const mainHomeLaptop = document.createElement('div');
+
+  mainHomeLaptop.innerHTML = ` <main>
     <section class="hero">
       <h1>Benvingut, Alumni</h1>
       <p>Connectant i empoderant a la nostra comunitat global d’alumnes</p>
@@ -126,8 +126,8 @@ export const showMainHomeLaptop = () => {
     </section>
   </main>
 `;
-  }
-}  
-  
-  
-  
+
+  return mainHomeLaptop.firstElementChild
+}
+
+
