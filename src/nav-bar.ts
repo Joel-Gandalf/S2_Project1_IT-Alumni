@@ -3,11 +3,15 @@ import logoUrl from '/src/assets/icons/Header.svg';
 import iconRegisterUrl from "/src/assets/icons/Navbar/register.svg";
 import iconProfileUrl from "/src/assets/icons/Navbar/profile.svg";
 
-export const showNavBar = () => {
-  const navBar = document.getElementById('insertApp');
+export const createNavBar = (): null | Element => {
+  const navBar = document.createElement('div');
+  // const navBar = document.getElementById('insertApp');
 
-  if (navBar) {
-    navBar.innerHTML = ` <header class="container-header">
+  // if (navBar) {
+  // QUITO el IF porque CREATEELEMENT siempre devuelve un HTMLElement vacío
+  // getElementById sí puede devolver null si el elemento no existe en el DOM
+
+    navBar.innerHTML = ` <header class="container-nav-bar">
       <img src="${logoUrl}" alt="nombre de la aplicación: alumni" class="logo-nav-bar">
       <nav class="container-nav-bar">
         <ul class="navigation-menu" aria-label="Menú de navegación">
@@ -22,5 +26,6 @@ export const showNavBar = () => {
       </nav>
     </header>
 `;
-  }
+  // }
+  return navBar.firstElementChild;
 }
