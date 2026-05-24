@@ -60,7 +60,7 @@ export const createMainHomeLaptop = (): Element | null => {
     <section class="opinions">
       <h2>"T'ensenyem el que opinen els nostres súper-usuaris!”</h2>
 
-      <div class="opinions-cards" aria-label="Carrusel con tarjetas de opinion y valoración de exalumnos>
+      <div class="opinions-cards" aria-label="Carrusel con tarjetas de opinion y valoración de exalumnos">
 
         <div class="opinion-card">
           <div class="flex-card">
@@ -118,7 +118,7 @@ export const createMainHomeLaptop = (): Element | null => {
         </div>
       </div>
 
-      <div class="opinion-buttons" aria-label="Botones desplazamiento horizontal del carrusel>
+      <div class="opinion-buttons" aria-label="Botones desplazamiento horizontal del carrusel">
         <img src="${iconBack}" alt="Botón atrás carrusel opiniones">
         <img src="${iconNext}" alt="Botón adelante carrusel opiniones">
       </div>

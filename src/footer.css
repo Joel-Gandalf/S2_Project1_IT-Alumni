@@ -66,6 +66,7 @@ footer {
     border: transparent;
     border-radius: 0 22px 22px 0;
     color: var(--text-button-color);
+    cursor: pointer;
 }
 
 .nav-footer {
