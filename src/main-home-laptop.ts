@@ -127,7 +127,7 @@ export const createMainHomeLaptop = (): Element | null => {
   </main>
 `;
 
-  return mainHomeLaptop.firstElementChild
+  return mainHomeLaptop.firstElementChild;
 }
 
 

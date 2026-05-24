@@ -25,5 +25,5 @@ export const createNavBar = (): null | Element => {
     </header>
 `;
   // }
-  return navBar.firstElementChild
+  return navBar.firstElementChild;
 }
