@@ -2,7 +2,7 @@ import './style.css';
 import { showWelcomePage } from './welcome';
 import { createNavBar } from './nav-bar';
 import { createMainHomeLaptop } from "./main-home-laptop";
-import { showFooter } from "./footer";
+import { createFooter } from "./footer";
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -14,7 +14,7 @@ const renderApp = () => {
     } else {
         createNavBar();
         createMainHomeLaptop();
-        showFooter();
+        createFooter();
     }
 };
 

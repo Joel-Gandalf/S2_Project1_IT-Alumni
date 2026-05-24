@@ -6,11 +6,10 @@ import iconFacebook from "/src/assets/icons/Footer/SocialNetwork/LogoFacebook.pn
 import iconLinkedin from "/src/assets/icons/Footer/SocialNetwork/LogoLinkedin.png";
 import iconYoutube from "/src/assets/icons/Footer/SocialNetwork/LogoYoutube.png";
 
-export const showFooter = () => {
-  const footer = document.getElementById('insertApp');
+export const createFooter = (): Element | null => {
+  const footer = document.createElement('div');
 
-  if (footer) {
-    footer.innerHTML = ` <footer>
+  footer.innerHTML = ` <footer>
     <section class="subscription-newsletter">
       <p>"No et perdis res, subscriu-te!"</p>
       <form class="form-footer" method="post">
@@ -63,7 +62,14 @@ export const showFooter = () => {
   </footer>
 `;
 
-    const selectLang = document.getElementById('language') as HTMLSelectElement;
+  const footerElement = footer.firstElementChild
+
+  if (footerElement) {
+    // const selectLang = footerElement.getElementById('language') as HTMLSelectElement;
+
+    // NO se puede USAR getElementById es un MÉTODO de DOCUMENT, NO de un ELEMENTO. Para buscar dentro de un elemento usas querySelector
+
+    const selectLang = footerElement.querySelector('#language') as HTMLSelectElement;
 
     if (selectLang) {
       selectLang.addEventListener('change', () => {
@@ -75,5 +81,8 @@ export const showFooter = () => {
         selectedOption.setAttribute('hidden', 'true');
       });
     }
+
   }
+
+  return footerElement;
 }
