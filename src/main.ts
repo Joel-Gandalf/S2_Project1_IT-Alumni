@@ -3,6 +3,7 @@ import { createWelcomePage } from './welcome';
 import { createNavBar } from './nav-bar';
 import { createMainHomeLaptop } from "./main-home-laptop";
 import { createFooter } from "./footer";
+import { createHeaderPhone } from './header-phone';
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -11,9 +12,12 @@ const app = document.getElementById('insertApp');
 // Si app no es null:
 if (app) {
     const renderMobile = () => {
-        const welcomePage = createWelcomePage();
+        // const welcomePage = createWelcomePage();
         // Si welcomePage no es null, es un Element:
-        if (welcomePage) app.appendChild(welcomePage);
+        // if (welcomePage) app.appendChild(welcomePage);
+
+        const headerPhone = createHeaderPhone('Inici');
+        if (headerPhone) app.appendChild(headerPhone);
     }
 
     const renderDesktop = () => {
