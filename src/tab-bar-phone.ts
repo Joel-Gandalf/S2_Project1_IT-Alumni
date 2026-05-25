@@ -1,17 +1,11 @@
-<!doctype html>
-<html lang="en">
+import './footer.css';
 
-<head>
-  <meta charset="UTF-8" />
-  <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>It-alumni</title>
-</head>
 
-<body>
-  <div id="insertApp"></div>
+export const createTabBar = (): Element | null => {
 
-  <!-- <nav class="tab-bar-container" aria-label="Menú principal">
+    const tabBar = document.createElement('div');
+
+    tabBar.innerHTML = `  <nav class="tab-bar-container" aria-label="Menú principal">
     <ul>
       <li>
         <button aria-label="Ir a inicio">
@@ -38,9 +32,8 @@
         </button>
       </li>
     </ul>
-  </nav> -->
+  </nav>
+  `;
 
-  <script type="module" src="/src/main.ts"></script>
-</body>
-
-</html>
+    return tabBar.firstElementChild
+}
