@@ -7,7 +7,7 @@
 
     const headerPhone = document.createElement('div');
 
-    headerPhone.innerHTML = `<header>
+    headerPhone.innerHTML = `<header class ="global-container">
 
     <section class="title-profile">
       <h1>${title}</h1>
