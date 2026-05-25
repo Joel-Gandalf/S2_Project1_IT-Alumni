@@ -4,6 +4,7 @@ import { createNavBar } from './nav-bar';
 import { createMainHomeLaptop } from "./main-home-laptop";
 import { createFooter } from "./footer";
 import { createHeaderPhone } from './header-phone';
+import { createTabBar } from './tab-bar-phone';
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -17,7 +18,10 @@ if (app) {
         // if (welcomePage) app.appendChild(welcomePage);
 
         const headerPhone = createHeaderPhone('Inici');
+        const tabBar = createTabBar();
+
         if (headerPhone) app.appendChild(headerPhone);
+        if (tabBar) app.appendChild(tabBar);
     }
 
     const renderDesktop = () => {
