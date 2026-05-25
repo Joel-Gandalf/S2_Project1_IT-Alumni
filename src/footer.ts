@@ -62,7 +62,7 @@ export const createFooter = (): Element | null => {
   </footer>
 `;
 
-  const footerElement = footer.firstElementChild
+  const footerElement = footer.firstElementChild;
 
   if (footerElement) {
     // const selectLang = footerElement.getElementById('language') as HTMLSelectElement;

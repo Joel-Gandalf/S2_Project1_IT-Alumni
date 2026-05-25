@@ -1,5 +1,5 @@
   import './header-phone.css';
-  import alignIcon from '/src/assets/icons/Mobile_Home/header/align-bottom.png';
+  import alignIcon from '/src/assets/icons/Mobile/header/align-bottom.png';
   import profileFoto from '/src/assets/images/header-phone/profile-photo.png';
   import searchIcon from '/src/assets/icons/Search.png';
   
