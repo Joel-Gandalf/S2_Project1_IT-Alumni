@@ -6,6 +6,7 @@ import { createFooter } from "./footer";
 import { createHeaderPhone } from './header-phone';
 import { createTabBar } from './tab-bar-phone';
 import { createMainHomePhone } from "./main-home-phone";
+import { creteSignUp } from "./sign-up";
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -18,46 +19,56 @@ if (app) {
         // Si welcomePage no es null, es un Element:
         // if (welcomePage) app.appendChild(welcomePage);
 
-        const headerPhone = createHeaderPhone('Inici');
-        const tabBar = createTabBar();
-        const mainHomePhone = createMainHomePhone();
+        // const headerPhone = createHeaderPhone('Inici');
+        // const tabBar = createTabBar();
+        // const mainHomePhone = createMainHomePhone();
 
-        if (headerPhone) app.appendChild(headerPhone);
-        if (mainHomePhone) app.appendChild(mainHomePhone);
-        if (tabBar) app.appendChild(tabBar);
+        // if (headerPhone) app.appendChild(headerPhone);
+        // if (mainHomePhone) app.appendChild(mainHomePhone);
+        // if (tabBar) app.appendChild(tabBar);
+
+        const signUp = creteSignUp();
+        if (signUp) app.appendChild(signUp);
     }
 
-    const renderDesktop = () => {
-        const navBar = createNavBar();
-        const mainHomeLaptop = createMainHomeLaptop();
-        const footer = createFooter();
+    // const renderDesktop = () => {
+    //     const navBar = createNavBar();
+    //     const mainHomeLaptop = createMainHomeLaptop();
+    //     const footer = createFooter();
 
-        if(navBar) app.appendChild(navBar);
-        if(mainHomeLaptop) app.appendChild(mainHomeLaptop);
-        if(footer) app.appendChild(footer);
-    }
+    //     if(navBar) app.appendChild(navBar);
+    //     if(mainHomeLaptop) app.appendChild(mainHomeLaptop);
+    //     if(footer) app.appendChild(footer);
+    // }
 
-    const renderApp = () => {
+    // const renderApp = () => {
         // Limpiar el HTML para que no se sumen los componentes una y otra vez.
-        app.innerHTML = '';
+        // app.innerHTML = '';
         // 2. Evaluamos si en este instante preciso coincide con un móvil
-        if (mediaQuery.matches) {
-            renderMobile();
-        } else {
-            renderDesktop();
-        }
-    };
+    //     if (mediaQuery.matches) {
+    //         renderMobile();
+    //     } else {
+    //         renderDesktop();
+    //     }
+    // };
 
     // 3. SEÑAL EN VIVO: Escucha constantemente si la pantalla cruza el límite de tamaño
     // Usamos .addEventListener('change', ...) que es el estándar moderno
-    mediaQuery.addEventListener('change', () => {
-        renderApp();
-    });
+    // mediaQuery.addEventListener('change', () => {
+    //     renderApp();
+    // });
 
     // 4. Carga inicial segura cuando el usuario abre(carga) la web por primera vez
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', renderApp);
+    // if (document.readyState === 'loading') {
+    //     document.addEventListener('DOMContentLoaded', renderApp);
+    // } else {
+    //     renderApp();
+    // }
+
+
+     if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', renderMobile);
     } else {
-        renderApp();
+        renderMobile();
     }
 }

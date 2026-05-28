@@ -42,6 +42,11 @@
 
   --main-paragraph-color: #9095A0;
 
+  --google-background-signup: #FDF2F2;
+  --google-color-signup: #DE3B40;
+  --facebook-background-signup: #F1F8FD;
+  --facebook-color-signup: #379AE6;
+
   --font: 'Source Sans Pro', sans-serif;
 }
 

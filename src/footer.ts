@@ -9,7 +9,7 @@ import iconYoutube from "/src/assets/icons/Footer/SocialNetwork/LogoYoutube.png"
 export const createFooter = (): Element | null => {
   const footer = document.createElement('div');
 
-  footer.innerHTML = ` <footer>
+  footer.innerHTML = ` <footer class ="general-footer">
     <section class="subscription-newsletter">
       <p>"No et perdis res, subscriu-te!"</p>
       <form class="form-footer" method="post">

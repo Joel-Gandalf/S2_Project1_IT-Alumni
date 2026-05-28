@@ -1,6 +1,6 @@
 import './main-home-phone.css';
 import networkingPhoto from '/src/assets/images/main-phone/redexalumnos.png';
-import jobPortal from '/src/assets/images/main-phone/jobportal.png';
+import jobPortalPhoto from '/src/assets/images/main-phone/jobportal.png';
 
 export const createMainHomePhone = (): Element | null => {
 
@@ -15,7 +15,7 @@ export const createMainHomePhone = (): Element | null => {
         <a href="#" aria-label="Ir a red de exalumnos">Explora</a>
       </div>
       <div class="container-link">
-        <img src="${jobPortal}" alt="Foto portal laboral">
+        <img src="${jobPortalPhoto}" alt="Foto portal laboral">
         <h2>Oportunitats de feina</h2>
         <p>Descobreix ofertes de treball adaptades a les teves habilitats.</p>
         <a href="#" aria-label="Ir a búsqueda de empleo">Cerca Feines</a>

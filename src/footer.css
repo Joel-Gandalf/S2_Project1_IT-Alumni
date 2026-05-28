@@ -1,4 +1,4 @@
-footer {
+.general-footer {
     background: var(--paragraph-color);
     color: var(--text-button-color);
     min-height: 407px;
