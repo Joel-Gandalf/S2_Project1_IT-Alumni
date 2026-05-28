@@ -1,0 +1,181 @@
+.general-container {
+    display: flex;
+    flex-direction: column;
+    height: 824px;
+    padding: 0 40px;
+    align-items: stretch;
+}
+
+.general-container header h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    margin: 40px auto 0;
+}
+
+.general-container header p {
+    display: none;
+}
+
+.general-container main {
+    width: 100%;
+}
+
+.general-container main form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.general-container main form label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 42px;
+    width: 100%;
+    border-radius: 6px;
+    background: var(--background-search-box);
+    padding: 0 10px;
+}
+
+.general-container main form label input {
+    border: none;
+    background: none;
+}
+
+.general-container main form label input[type="checkbox"] {
+    accent-color: var(--font-color-nav-special);
+    cursor: pointer;
+}
+
+.general-container main form label:last-of-type {
+    background: none;
+    color: var(--font-color-h1);
+    font-size: 14px;
+    margin: -10px 0;
+}
+
+.general-container main form input[type="submit"] {
+    height: 44px;
+    background: var(--font-color-nav-special);
+    border: none;
+    border-radius: 10px;
+    color: var(--text-button-color);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: var(--box-imput-color);
+    font-size: 16px;
+    border-color: var(--box-imput-color);
+    height: 80px;
+    width: calc(100% + 80px);
+    margin-left: -40px;
+}
+
+.divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid var(--box-imput-color);
+}
+
+.sign-up-with {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sign-up-with button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sign-up-with button:nth-child(1) {
+    background: var(--button-register-color);
+    color: var(--text-button-color);
+}
+
+.sign-up-with button:nth-child(2) {
+    background: var(--google-background-signup);
+    color: var(--google-color-signup);
+}
+
+.sign-up-with button:nth-child(3) {
+    background: var(--facebook-background-signup);
+    color: var(--facebook-color-signup);
+}
+
+.sign-up-footer {
+    display: flex;
+    gap: 20px;
+    margin-top: 5vh;
+}
+
+.sign-up-footer p{
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--border-nav);
+}
+
+.sign-up-footer button {
+    border: none;
+    background: none;
+    color: var(--font-color-nav-special);
+    font-size: 14px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    body {
+        background: no-repeat center/cover url('./assets/images/sign-up-laptop/rsz_background-sign-up.png');
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .general-container {
+        background: var(--text-button-color);
+        height: 854px;
+        width: 720px;
+        padding: 0 80px;
+        border: 1px solid var(--box-imput-color);
+    }
+
+    .general-container header p {
+        display: block;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--border-nav);
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .divider {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sign-up-footer {
+    justify-content: center;
+}
+
+}

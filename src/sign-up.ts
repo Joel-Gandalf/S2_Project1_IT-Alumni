@@ -5,9 +5,8 @@ import frameIcon from './assets/icons/Sign-up/Frame.svg';
 import appleIcon from './assets/icons/Sign-up/Apple.svg';
 import googleIcon from './assets/icons/Sign-up/Google.svg';
 import fecebookIcon from './assets/icons/Sign-up/Facebook.svg';
-import backgroundPhoto from './assets/images/sign-up-laptop/rsz_background-sign-up.png';
 
-const creteSignUp = (): Element | null => {
+export const creteSignUp = (): Element | null => {
 
     const signUp = document.createElement('div');
 
@@ -19,13 +18,13 @@ const creteSignUp = (): Element | null => {
     
     <main>
       <form aria-label="Formulario de registro" action="#" method="post">
-        <label><img src="" alt=""><input type="text" name="name" id="name" placeholder="Posa el teu nom" required
+        <label><img src="${userIcon}" alt=""><input type="text" name="name" id="name" placeholder="Posa el teu nom" required
             aria-required="true"></label>
-        <label><img src="" alt=""><input type="text" name="surname" id="surname" placeholder="Posa el teu cognom"
+        <label><img src="${userIcon}" alt=""><input type="text" name="surname" id="surname" placeholder="Posa el teu cognom"
             required aria-required="true"></label>
-        <label><img src="" alt=""><input type="email" name="email" id="email" placeholder="El teu correu electrònic"
+        <label><img src="${mailIcon}" alt=""><input type="email" name="email" id="email" placeholder="El teu correu electrònic"
             required aria-required="true"></label>
-        <label><img src="" alt=""><input type="password" name="password" id="password"
+        <label><img src="${frameIcon}" alt=""><input type="password" name="password" id="password"
             placeholder="Crea una contrasenya" required aria-required="true"></label>
         <label><input type="checkbox" name="acceptTermsConditions" id="check" required aria-required="true">Accepto els
           Termes i Condicions</label>
@@ -33,17 +32,19 @@ const creteSignUp = (): Element | null => {
         <input type="submit" value="Registra’t">
       </form>
 
-      <div class="divider"><span role="separator">o</span></div>
+      <div class="divider">
+        <hr><span>O</span><hr>
+      </div>
 
       <section class="sign-up-with">
-        <button type="button"><img src="" alt="Icono Apple">Continua amb Apple</button>
-        <button type="button"><img src="" alt="Icono Google">Continua amb Google</button>
-        <button type="button"><img src="" alt="Icono Facebook">Continua amb Facebook</button>
+        <button type="button"><img src="${appleIcon}" alt="Icono Apple">Continua amb Apple</button>
+        <button type="button"><img src="${googleIcon}" alt="Icono Google">Continua amb Google</button>
+        <button type="button"><img src="${fecebookIcon}" alt="Icono Facebook">Continua amb Facebook</button>
       </section>
 
     </main>
 
-    <footer>
+    <footer class="sign-up-footer">
       <p>Ja t'has registrat?</p>
       <button type="button" id="logIn">Inicia sessió</button>
     </footer>
