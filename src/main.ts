@@ -1,12 +1,12 @@
 import './style.css';
-import { createWelcomePage } from './welcome';
-import { createNavBar } from './nav-bar';
-import { createMainHomeLaptop } from "./main-home-laptop";
-import { createFooter } from "./footer";
-import { createHeaderPhone } from './header-phone';
-import { createTabBar } from './tab-bar-phone';
-import { createMainHomePhone } from "./main-home-phone";
-import { creteSignUp } from "./sign-up";
+import { createWelcomePage } from './pages/welcome-phone/welcome';
+import { createNavBar } from './components/nav-bar-laptop/nav-bar';
+import { createMainHomeLaptop } from "./components/main-home-laptop/main-home-laptop";
+import { createFooter } from "./components/footer-laptop/footer";
+import { createHeaderPhone } from './components/header-phone/header-phone';
+import { createTabBar } from './components/tab-bar-phone/tab-bar-phone';
+import { createMainHomePhone } from "./components/main-home-phone/main-home-phone";
+import { creteSignUp } from "./pages/sign-up-phone-laptop/sign-up";
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');

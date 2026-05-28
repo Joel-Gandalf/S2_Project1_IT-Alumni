@@ -127,7 +127,7 @@
     margin-top: 5vh;
 }
 
-.sign-up-footer p{
+.sign-up-footer p {
     font-size: 14px;
     line-height: 22px;
     color: var(--border-nav);
@@ -175,7 +175,7 @@
     }
 
     .sign-up-footer {
-    justify-content: center;
-}
+        justify-content: center;
+    }
 
 }
