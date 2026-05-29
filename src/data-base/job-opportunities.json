@@ -1,0 +1,402 @@
+[
+    {
+        "jobPosition": "Senior Developer",
+        "employmentType": "Remote opportunity",
+        "datePosted": "1 week",
+        "company": "Revolut Ltd.",
+        "remote": true,
+        "city": "London",
+        "internationalCountryCodes": "UK",
+        "applicationDeadline": "2026-11-20"
+    },
+    {
+        "jobPosition": "Senior Developer",
+        "employmentType": "Jornada completa",
+        "datePosted": "3 dies",
+        "company": "Cabify",
+        "remote": true,
+        "city": "Madrid",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-09-12"
+    },
+    {
+        "jobPosition": "Engineering Manager",
+        "employmentType": "Jornada completa",
+        "datePosted": "1 setmana",
+        "company": "Factorial",
+        "remote": false,
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-11-30"
+    },
+    {
+        "jobPosition": "Frontend Engineer",
+        "employmentType": "Oportunitat remota",
+        "datePosted": "5 dies",
+        "company": "Glovo",
+        "remote": true,
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-10-15"
+    },
+    {
+        "jobPosition": "Cloud Architect",
+        "employmentType": "Remote opportunity",
+        "datePosted": "2 mesos",
+        "company": "Spotify Technology S.A.",
+        "remote": true,
+        "city": "Stockholm",
+        "internationalCountryCodes": "SE",
+        "applicationDeadline": "2026-07-22"
+    },
+    {
+        "jobPosition": "DevOps Specialist",
+        "employmentType": "Full-time position",
+        "datePosted": "4 dies",
+        "company": "Adyen N.V.",
+        "remote": false,
+        "city": "Amsterdam",
+        "internationalCountryCodes": "NL",
+        "applicationDeadline": "2026-12-05"
+    },
+    {
+        "jobPosition": "Security Analyst",
+        "employmentType": "Flexible hours",
+        "datePosted": "3 setmanes",
+        "company": "Delivery Hero SE",
+        "remote": true,
+        "city": "Berlin",
+        "internationalCountryCodes": "DE",
+        "applicationDeadline": "2026-08-19"
+    },
+    {
+        "jobPosition": "Backend Engineer",
+        "employmentType": "Contract-based role",
+        "datePosted": "1 mes",
+        "company": "Klarna Bank AB",
+        "remote": false,
+        "city": "Stockholm",
+        "internationalCountryCodes": "SE",
+        "applicationDeadline": "2026-06-14"
+    },
+    {
+        "jobPosition": "Data Scientist",
+        "employmentType": "Part-time role",
+        "datePosted": "12 dies",
+        "company": "Checkout.com",
+        "remote": true,
+        "city": "London",
+        "internationalCountryCodes": "UK",
+        "applicationDeadline": "2026-11-02"
+    },
+    {
+        "jobPosition": "Full Stack Developer",
+        "employmentType": "Horas flexibles",
+        "datePosted": "2 dies",
+        "company": "Inditex Tech",
+        "remote": false,
+        "city": "Arteixo",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-10-28"
+    },
+    {
+        "jobPosition": "UI/UX Designer",
+        "employmentType": "Remote opportunity",
+        "datePosted": "2 setmanes",
+        "company": "BlaBlaCar",
+        "remote": true,
+        "city": "Paris",
+        "internationalCountryCodes": "FR",
+        "applicationDeadline": "2026-09-01"
+    },
+    {
+        "jobPosition": "QA Engineer",
+        "employmentType": "Full-time role",
+        "datePosted": "6 dies",
+        "company": "Bolt Technology OÜ",
+        "remote": false,
+        "city": "Tallinn",
+        "internationalCountryCodes": "EE",
+        "applicationDeadline": "2026-12-20"
+    },
+    {
+        "jobPosition": "Solutions Architect",
+        "employmentType": "Contract-based role",
+        "datePosted": "1 mes",
+        "company": "UiPath",
+        "remote": true,
+        "city": "Bucharest",
+        "internationalCountryCodes": "RO",
+        "applicationDeadline": "2026-07-08"
+    },
+    {
+        "jobPosition": "Systems Administrator",
+        "employmentType": "Flexible hours",
+        "datePosted": "25 dies",
+        "company": "Skyscanner Ltd",
+        "remote": false,
+        "city": "Edinburgh",
+        "internationalCountryCodes": "UK",
+        "applicationDeadline": "2026-08-31"
+    },
+    {
+        "jobPosition": "Machine Learning Engineer",
+        "employmentType": "Full-time position",
+        "datePosted": "3 mesos",
+        "company": "Booking.com",
+        "remote": true,
+        "city": "Amsterdam",
+        "internationalCountryCodes": "NL",
+        "applicationDeadline": "2026-06-25"
+    },
+    {
+        "jobPosition": "Embedded Systems Engineer",
+        "employmentType": "Trabajo por contrato",
+        "datePosted": "1 setmana",
+        "company": "Wallbox",
+        "remote": false,
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-11-18"
+    },
+    {
+        "jobPosition": "Senior Developer",
+        "employmentType": "Full-time role",
+        "datePosted": "9 dies",
+        "company": "N26 GmbH",
+        "remote": true,
+        "city": "Berlin",
+        "internationalCountryCodes": "DE",
+        "applicationDeadline": "2026-10-10"
+    },
+    {
+        "jobPosition": "DevOps Specialist",
+        "employmentType": "Remote opportunity",
+        "datePosted": "2 setmanes",
+        "company": "Wolt Enterprises Oy",
+        "remote": true,
+        "city": "Helsinki",
+        "internationalCountryCodes": "FI",
+        "applicationDeadline": "2026-09-30"
+    },
+    {
+        "jobPosition": "Security Analyst",
+        "employmentType": "Flexible hours",
+        "datePosted": "4 dies",
+        "company": "Criteo S.A.",
+        "remote": false,
+        "city": "Paris",
+        "internationalCountryCodes": "FR",
+        "applicationDeadline": "2026-12-12"
+    },
+    {
+        "jobPosition": "Backend Engineer",
+        "employmentType": "Contract-based role",
+        "datePosted": "1 mes",
+        "company": "TransferWise Ltd (Wise)",
+        "remote": true,
+        "city": "London",
+        "internationalCountryCodes": "UK",
+        "applicationDeadline": "2026-07-15"
+    },
+    {
+        "jobPosition": "Data Scientist",
+        "employmentType": "Full-time position",
+        "datePosted": "18 dies",
+        "company": "Personio SE & Co. KG",
+        "remote": false,
+        "city": "Munich",
+        "internationalCountryCodes": "DE",
+        "applicationDeadline": "2026-08-04"
+    },
+    {
+        "jobPosition": "Frontend Engineer",
+        "employmentType": "Part-time role",
+        "datePosted": "2 setmanes",
+        "company": "Supercell Oy",
+        "remote": true,
+        "city": "Helsinki",
+        "internationalCountryCodes": "FI",
+        "applicationDeadline": "2026-11-22"
+    },
+    {
+        "jobPosition": "Full Stack Developer",
+        "employmentType": "Remote opportunity",
+        "datePosted": "3 dies",
+        "company": "King Digital Entertainment",
+        "remote": true,
+        "city": "London",
+        "internationalCountryCodes": "UK",
+        "applicationDeadline": "2026-10-05"
+    },
+    {
+        "jobPosition": "Cloud Architect",
+        "employmentType": "Jornada parcial",
+        "datePosted": "1 setmana",
+        "company": "Holaluz",
+        "remote": false,
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-09-25"
+    },
+    {
+        "jobPosition": "QA Engineer",
+        "employmentType": "Flexible hours",
+        "datePosted": "2 mesos",
+        "company": "Infineon Technologies AG",
+        "remote": true,
+        "city": "Munich",
+        "internationalCountryCodes": "DE",
+        "applicationDeadline": "2026-06-30"
+    },
+    {
+        "jobPosition": "Solutions Architect",
+        "employmentType": "Contract-based role",
+        "datePosted": "12 dies",
+        "company": "TeamViewer SE",
+        "remote": true,
+        "city": "Göppingen",
+        "internationalCountryCodes": "DE",
+        "applicationDeadline": "2026-07-19"
+    },
+    {
+        "jobPosition": "Engineering Manager",
+        "employmentType": "Oportunitat de teletreball",
+        "datePosted": "2 dies",
+        "company": "Typeform",
+        "remote": true,
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-11-14"
+    },
+    {
+        "jobPosition": "Systems Administrator",
+        "employmentType": "Jornada completa",
+        "datePosted": "4 dies",
+        "company": "Idealista",
+        "remote": false,
+        "city": "Madrid",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-08-22"
+    },
+    {
+        "jobPosition": "Machine Learning Engineer",
+        "employmentType": "Full-time position",
+        "datePosted": "3 setmanes",
+        "company": "Spotify Technology S.A.",
+        "remote": true,
+        "city": "Stockholm",
+        "internationalCountryCodes": "SE",
+        "applicationDeadline": "2026-10-09"
+    },
+    {
+        "jobPosition": "Senior Developer",
+        "employmentType": "Part-time role",
+        "datePosted": "1 setmana",
+        "company": "Adyen N.V.",
+        "remote": false,
+        "city": "Amsterdam",
+        "internationalCountryCodes": "NL",
+        "applicationDeadline": "2026-12-01"
+    },
+    {
+        "jobPosition": "DevOps Specialist",
+        "employmentType": "Remote opportunity",
+        "datePosted": "8 dies",
+        "company": "Delivery Hero SE",
+        "remote": true,
+        "city": "Berlin",
+        "internationalCountryCodes": "DE",
+        "applicationDeadline": "2026-09-17"
+    },
+    {
+        "jobPosition": "Security Analyst",
+        "employmentType": "Flexible hours",
+        "datePosted": "1 mes",
+        "company": "Klarna Bank AB",
+        "remote": false,
+        "city": "Stockholm",
+        "internationalCountryCodes": "SE",
+        "applicationDeadline": "2026-07-11"
+    },
+    {
+        "jobPosition": "Frontend Engineer",
+        "employmentType": "Horaris flexibles",
+        "datePosted": "3 dies",
+        "company": "TravelPerk",
+        "remote": true,
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-11-05"
+    },
+    {
+        "jobPosition": "Backend Engineer",
+        "employmentType": "Full-time role",
+        "datePosted": "15 dies",
+        "company": "Checkout.com",
+        "remote": false,
+        "city": "London",
+        "internationalCountryCodes": "UK",
+        "applicationDeadline": "2026-08-27"
+    },
+    {
+        "jobPosition": "Data Scientist",
+        "employmentType": "Contract-based role",
+        "datePosted": "2 setmanes",
+        "company": "BlaBlaCar",
+        "remote": true,
+        "city": "Paris",
+        "internationalCountryCodes": "FR",
+        "applicationDeadline": "2026-10-21"
+    },
+    {
+        "jobPosition": "Full Stack Developer",
+        "employmentType": "Full-time position",
+        "datePosted": "6 dies",
+        "company": "Bolt Technology OÜ",
+        "remote": false,
+        "city": "Tallinn",
+        "internationalCountryCodes": "EE",
+        "applicationDeadline": "2026-12-15"
+    },
+    {
+        "jobPosition": "UI/UX Designer",
+        "employmentType": "Trabajo remoto",
+        "datePosted": "1 mes",
+        "company": "Jobandtalent",
+        "remote": true,
+        "city": "Madrid",
+        "internationalCountryCodes": "ES",
+        "applicationDeadline": "2026-06-18"
+    },
+    {
+        "jobPosition": "QA Engineer",
+        "employmentType": "Flexible hours",
+        "datePosted": "4 dies",
+        "company": "UiPath",
+        "remote": false,
+        "city": "Bucharest",
+        "internationalCountryCodes": "RO",
+        "applicationDeadline": "2026-09-09"
+    },
+    {
+        "jobPosition": "Solutions Architect",
+        "employmentType": "Part-time role",
+        "datePosted": "3 setmanes",
+        "company": "Skyscanner Ltd",
+        "remote": true,
+        "city": "Edinburgh",
+        "internationalCountryCodes": "UK",
+        "applicationDeadline": "2026-10-31"
+    },
+    {
+        "jobPosition": "Engineering Manager",
+        "employmentType": "Remote opportunity",
+        "datePosted": "2 mesos",
+        "company": "Booking.com",
+        "remote": true,
+        "city": "Amsterdam",
+        "internationalCountryCodes": "NL",
+        "applicationDeadline": "2026-07-01"
+    }
+]
