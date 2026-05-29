@@ -5,7 +5,8 @@
         "jobPosition": "Senior Developer",
         "company": "Revolut Ltd.",
         "city": "London",
-        "internationalCountryCodes": "UK"
+        "internationalCountryCodes": "UK",
+        "classOf": 2024
     },
     {
         "name": "Alejandro",
@@ -13,7 +14,8 @@
         "jobPosition": "Senior Developer",
         "company": "Cabify",
         "city": "Madrid",
-        "internationalCountryCodes": "ES"
+        "internationalCountryCodes": "ES",
+        "classOf": 2012
     },
     {
         "name": "Mateo",
@@ -21,7 +23,8 @@
         "jobPosition": "Engineering Manager",
         "company": "Factorial",
         "city": "Barcelona",
-        "internationalCountryCodes": "ES"
+        "internationalCountryCodes": "ES",
+        "classOf": 2018
     },
     {
         "name": "Lucía",
@@ -29,7 +32,8 @@
         "jobPosition": "Cloud Architect",
         "company": "Glovo",
         "city": "Barcelona",
-        "internationalCountryCodes": "ES"
+        "internationalCountryCodes": "ES",
+        "classOf": 2023
     },
     {
         "name": "Leonardo",
@@ -37,7 +41,8 @@
         "jobPosition": "Senior Developer",
         "company": "Spotify Technology S.A.",
         "city": "Stockholm",
-        "internationalCountryCodes": "SE"
+        "internationalCountryCodes": "SE",
+        "classOf": 2005
     },
     {
         "name": "Andrea",
@@ -45,7 +50,8 @@
         "jobPosition": "DevOps Specialist",
         "company": "Adyen N.V.",
         "city": "Amsterdam",
-        "internationalCountryCodes": "NL"
+        "internationalCountryCodes": "NL",
+        "classOf": 2015
     },
     {
         "name": "Nathan",
@@ -53,7 +59,8 @@
         "jobPosition": "Security Analyst",
         "company": "Delivery Hero SE",
         "city": "Berlin",
-        "internationalCountryCodes": "DE"
+        "internationalCountryCodes": "DE",
+        "classOf": 2020
     },
     {
         "name": "Nicolás",
@@ -61,7 +68,8 @@
         "jobPosition": "Security Analyst",
         "company": "Klarna Bank AB",
         "city": "Stockholm",
-        "internationalCountryCodes": "SE"
+        "internationalCountryCodes": "SE",
+        "classOf": 2011
     },
     {
         "name": "Kacper",
@@ -69,7 +77,8 @@
         "jobPosition": "Frontend Engineer",
         "company": "Checkout.com",
         "city": "London",
-        "internationalCountryCodes": "UK"
+        "internationalCountryCodes": "UK",
+        "classOf": 2014
     },
     {
         "name": "Diego",
@@ -77,7 +86,8 @@
         "jobPosition": "Full Stack Developer",
         "company": "Inditex Tech",
         "city": "Arteixo",
-        "internationalCountryCodes": "ES"
+        "internationalCountryCodes": "ES",
+        "classOf": 2008
     },
     {
         "name": "Oscar",
@@ -85,7 +95,8 @@
         "jobPosition": "Senior Developer",
         "company": "BlaBlaCar",
         "city": "Paris",
-        "internationalCountryCodes": "FR"
+        "internationalCountryCodes": "FR",
+        "classOf": 2002
     },
     {
         "name": "Santiago",
@@ -93,7 +104,8 @@
         "jobPosition": "DevOps Specialist",
         "company": "Bolt Technology OÜ",
         "city": "Tallinn",
-        "internationalCountryCodes": "EE"
+        "internationalCountryCodes": "EE",
+        "classOf": 2021
     },
     {
         "name": "Nathan",
@@ -101,7 +113,8 @@
         "jobPosition": "UI/UX Designer",
         "company": "UiPath",
         "city": "Bucharest",
-        "internationalCountryCodes": "RO"
+        "internationalCountryCodes": "RO",
+        "classOf": 2017
     },
     {
         "name": "Santiago",
@@ -109,7 +122,8 @@
         "jobPosition": "DevOps Specialist",
         "company": "Skyscanner Ltd",
         "city": "Edinburgh",
-        "internationalCountryCodes": "UK"
+        "internationalCountryCodes": "UK",
+        "classOf": 2009
     },
     {
         "name": "Tommaso",
@@ -117,7 +131,8 @@
         "jobPosition": "Security Analyst",
         "company": "Booking.com",
         "city": "Amsterdam",
-        "internationalCountryCodes": "NL"
+        "internationalCountryCodes": "NL",
+        "classOf": 2013
     },
     {
         "name": "Sofia",
@@ -125,7 +140,8 @@
         "jobPosition": "QA Engineer",
         "company": "Wallbox",
         "city": "Barcelona",
-        "internationalCountryCodes": "ES"
+        "internationalCountryCodes": "ES",
+        "classOf": 2025
     },
     {
         "name": "Charlie",
@@ -133,7 +149,8 @@
         "jobPosition": "DevOps Specialist",
         "company": "N26 GmbH",
         "city": "Berlin",
-        "internationalCountryCodes": "DE"
+        "internationalCountryCodes": "DE",
+        "classOf": 2016
     },
     {
         "name": "Noah",
@@ -141,7 +158,8 @@
         "jobPosition": "Data Scientist",
         "company": "Wolt Enterprises Oy",
         "city": "Helsinki",
-        "internationalCountryCodes": "FI"
+        "internationalCountryCodes": "FI",
+        "classOf": 2019
     },
     {
         "name": "Kamil",
@@ -149,7 +167,8 @@
         "jobPosition": "Senior Developer",
         "company": "Criteo S.A.",
         "city": "Paris",
-        "internationalCountryCodes": "FR"
+        "internationalCountryCodes": "FR",
+        "classOf": 2004
     },
     {
         "name": "Riccardo",
@@ -157,7 +176,8 @@
         "jobPosition": "Backend Engineer",
         "company": "TransferWise Ltd (Wise)",
         "city": "London",
-        "internationalCountryCodes": "UK"
+        "internationalCountryCodes": "UK",
+        "classOf": 2010
     },
     {
         "name": "Mattia",
@@ -165,7 +185,8 @@
         "jobPosition": "Cloud Architect",
         "company": "Personio SE & Co. KG",
         "city": "Munich",
-        "internationalCountryCodes": "DE"
+        "internationalCountryCodes": "DE",
+        "classOf": 2022
     },
     {
         "name": "Chloé",
@@ -173,7 +194,8 @@
         "jobPosition": "DevOps Specialist",
         "company": "Supercell Oy",
         "city": "Helsinki",
-        "internationalCountryCodes": "FI"
+        "internationalCountryCodes": "FI",
+        "classOf": 2014
     },
     {
         "name": "Riccardo",
@@ -181,7 +203,8 @@
         "jobPosition": "Frontend Engineer",
         "company": "King Digital Entertainment",
         "city": "London",
-        "internationalCountryCodes": "UK"
+        "internationalCountryCodes": "UK",
+        "classOf": 2007
     },
     {
         "name": "Martina",
@@ -189,7 +212,8 @@
         "jobPosition": "Backend Engineer",
         "company": "Cabify",
         "city": "Madrid",
-        "internationalCountryCodes": "ES"
+        "internationalCountryCodes": "ES",
+        "classOf": 2020
     },
     {
         "name": "Alejandro",
@@ -197,7 +221,8 @@
         "jobPosition": "Frontend Engineer",
         "company": "ASML Holding N.V.",
         "city": "Veldhoven",
-        "internationalCountryCodes": "NL"
+        "internationalCountryCodes": "NL",
+        "classOf": 2001
     },
     {
         "name": "Maximilian",
@@ -205,7 +230,8 @@
         "jobPosition": "Cloud Architect",
         "company": "Infineon Technologies AG",
         "city": "Munich",
-        "internationalCountryCodes": "DE"
+        "internationalCountryCodes": "DE",
+        "classOf": 2011
     },
     {
         "name": "James",
@@ -213,7 +239,8 @@
         "jobPosition": "Systems Administrator",
         "company": "TeamViewer SE",
         "city": "Göppingen",
-        "internationalCountryCodes": "DE"
+        "internationalCountryCodes": "DE",
+        "classOf": 2006
     },
     {
         "name": "Lucas",
@@ -221,7 +248,8 @@
         "jobPosition": "QA Engineer",
         "company": "Spotify Technology S.A.",
         "city": "Stockholm",
-        "internationalCountryCodes": "SE"
+        "internationalCountryCodes": "SE",
+        "classOf": 2016
     },
     {
         "name": "Charlie",
@@ -229,7 +257,8 @@
         "jobPosition": "Solutions Architect",
         "company": "Adyen N.V.",
         "city": "Amsterdam",
-        "internationalCountryCodes": "NL"
+        "internationalCountryCodes": "NL",
+        "classOf": 2013
     },
     {
         "name": "Paul",
@@ -237,7 +266,8 @@
         "jobPosition": "Full Stack Developer",
         "company": "Delivery Hero SE",
         "city": "Berlin",
-        "internationalCountryCodes": "DE"
+        "internationalCountryCodes": "DE",
+        "classOf": 2024
     },
     {
         "name": "Louise",
@@ -245,7 +275,8 @@
         "jobPosition": "Engineering Manager",
         "company": "Klarna Bank AB",
         "city": "Stockholm",
-        "internationalCountryCodes": "SE"
+        "internationalCountryCodes": "SE",
+        "classOf": 2003
     },
     {
         "name": "Hugo",
@@ -253,7 +284,8 @@
         "jobPosition": "Data Scientist",
         "company": "Factorial",
         "city": "Barcelona",
-        "internationalCountryCodes": "ES"
+        "internationalCountryCodes": "ES",
+        "classOf": 2017
     },
     {
         "name": "Noah",
@@ -261,7 +293,8 @@
         "jobPosition": "Machine Learning Engineer",
         "company": "Checkout.com",
         "city": "London",
-        "internationalCountryCodes": "UK"
+        "internationalCountryCodes": "UK",
+        "classOf": 2021
     },
     {
         "name": "Henry",
@@ -269,7 +302,8 @@
         "jobPosition": "DevOps Specialist",
         "company": "BlaBlaCar",
         "city": "Paris",
-        "internationalCountryCodes": "FR"
+        "internationalCountryCodes": "FR",
+        "classOf": 2010
     },
     {
         "name": "Tommaso",
@@ -277,7 +311,8 @@
         "jobPosition": "Senior Developer",
         "company": "Bolt Technology OÜ",
         "city": "Tallinn",
-        "internationalCountryCodes": "EE"
+        "internationalCountryCodes": "EE",
+        "classOf": 2015
     },
     {
         "name": "Francesco",
@@ -285,7 +320,8 @@
         "jobPosition": "Systems Administrator",
         "company": "UiPath",
         "city": "Bucharest",
-        "internationalCountryCodes": "RO"
+        "internationalCountryCodes": "RO",
+        "classOf": 2000
     },
     {
         "name": "Louise",
@@ -293,7 +329,8 @@
         "jobPosition": "Machine Learning Engineer",
         "company": "Skyscanner Ltd",
         "city": "Edinburgh",
-        "internationalCountryCodes": "UK"
+        "internationalCountryCodes": "UK",
+        "classOf": 2012
     },
     {
         "name": "Nathan",
@@ -301,7 +338,8 @@
         "jobPosition": "Frontend Engineer",
         "company": "Booking.com",
         "city": "Amsterdam",
-        "internationalCountryCodes": "NL"
+        "internationalCountryCodes": "NL",
+        "classOf": 2022
     },
     {
         "name": "Paul",
@@ -309,7 +347,8 @@
         "jobPosition": "QA Engineer",
         "company": "N26 GmbH",
         "city": "Berlin",
-        "internationalCountryCodes": "DE"
+        "internationalCountryCodes": "DE",
+        "classOf": 2007
     },
     {
         "name": "Leonardo",
@@ -317,7 +356,8 @@
         "jobPosition": "Cloud Architect",
         "company": "Wolt Enterprises Oy",
         "city": "Helsinki",
-        "internationalCountryCodes": "FI"
+        "internationalCountryCodes": "FI",
+        "classOf": 2018
     },
     {
         "name": "Thomas",
@@ -325,6 +365,7 @@
         "jobPosition": "Cloud Architect",
         "company": "Criteo S.A.",
         "city": "Paris",
-        "internationalCountryCodes": "FR"
+        "internationalCountryCodes": "FR",
+        "classOf": 2014
     }
 ]
