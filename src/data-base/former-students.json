@@ -1,0 +1,330 @@
+[
+    {
+        "name": "David",
+        "surname": "Serrano",
+        "jobPosition": "Senior Developer",
+        "company": "Revolut Ltd.",
+        "city": "London",
+        "internationalCountryCodes": "UK"
+    },
+    {
+        "name": "Alejandro",
+        "surname": "Sanz",
+        "jobPosition": "Senior Developer",
+        "company": "Cabify",
+        "city": "Madrid",
+        "internationalCountryCodes": "ES"
+    },
+    {
+        "name": "Mateo",
+        "surname": "Fernández",
+        "jobPosition": "Engineering Manager",
+        "company": "Factorial",
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES"
+    },
+    {
+        "name": "Lucía",
+        "surname": "Gómez",
+        "jobPosition": "Cloud Architect",
+        "company": "Glovo",
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES"
+    },
+    {
+        "name": "Leonardo",
+        "surname": "Pérez",
+        "jobPosition": "Senior Developer",
+        "company": "Spotify Technology S.A.",
+        "city": "Stockholm",
+        "internationalCountryCodes": "SE"
+    },
+    {
+        "name": "Andrea",
+        "surname": "Durand",
+        "jobPosition": "DevOps Specialist",
+        "company": "Adyen N.V.",
+        "city": "Amsterdam",
+        "internationalCountryCodes": "NL"
+    },
+    {
+        "name": "Nathan",
+        "surname": "García",
+        "jobPosition": "Security Analyst",
+        "company": "Delivery Hero SE",
+        "city": "Berlin",
+        "internationalCountryCodes": "DE"
+    },
+    {
+        "name": "Nicolás",
+        "surname": "Esposito",
+        "jobPosition": "Security Analyst",
+        "company": "Klarna Bank AB",
+        "city": "Stockholm",
+        "internationalCountryCodes": "SE"
+    },
+    {
+        "name": "Kacper",
+        "surname": "Williams",
+        "jobPosition": "Frontend Engineer",
+        "company": "Checkout.com",
+        "city": "London",
+        "internationalCountryCodes": "UK"
+    },
+    {
+        "name": "Diego",
+        "surname": "Ortega",
+        "jobPosition": "Full Stack Developer",
+        "company": "Inditex Tech",
+        "city": "Arteixo",
+        "internationalCountryCodes": "ES"
+    },
+    {
+        "name": "Oscar",
+        "surname": "Becker",
+        "jobPosition": "Senior Developer",
+        "company": "BlaBlaCar",
+        "city": "Paris",
+        "internationalCountryCodes": "FR"
+    },
+    {
+        "name": "Santiago",
+        "surname": "Díaz",
+        "jobPosition": "DevOps Specialist",
+        "company": "Bolt Technology OÜ",
+        "city": "Tallinn",
+        "internationalCountryCodes": "EE"
+    },
+    {
+        "name": "Nathan",
+        "surname": "Taylor",
+        "jobPosition": "UI/UX Designer",
+        "company": "UiPath",
+        "city": "Bucharest",
+        "internationalCountryCodes": "RO"
+    },
+    {
+        "name": "Santiago",
+        "surname": "Wilson",
+        "jobPosition": "DevOps Specialist",
+        "company": "Skyscanner Ltd",
+        "city": "Edinburgh",
+        "internationalCountryCodes": "UK"
+    },
+    {
+        "name": "Tommaso",
+        "surname": "Russo",
+        "jobPosition": "Security Analyst",
+        "company": "Booking.com",
+        "city": "Amsterdam",
+        "internationalCountryCodes": "NL"
+    },
+    {
+        "name": "Sofia",
+        "surname": "Ruiz",
+        "jobPosition": "QA Engineer",
+        "company": "Wallbox",
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES"
+    },
+    {
+        "name": "Charlie",
+        "surname": "Wagner",
+        "jobPosition": "DevOps Specialist",
+        "company": "N26 GmbH",
+        "city": "Berlin",
+        "internationalCountryCodes": "DE"
+    },
+    {
+        "name": "Noah",
+        "surname": "Davies",
+        "jobPosition": "Data Scientist",
+        "company": "Wolt Enterprises Oy",
+        "city": "Helsinki",
+        "internationalCountryCodes": "FI"
+    },
+    {
+        "name": "Kamil",
+        "surname": "Kamiński",
+        "jobPosition": "Senior Developer",
+        "company": "Criteo S.A.",
+        "city": "Paris",
+        "internationalCountryCodes": "FR"
+    },
+    {
+        "name": "Riccardo",
+        "surname": "Kowalski",
+        "jobPosition": "Backend Engineer",
+        "company": "TransferWise Ltd (Wise)",
+        "city": "London",
+        "internationalCountryCodes": "UK"
+    },
+    {
+        "name": "Mattia",
+        "surname": "Becker",
+        "jobPosition": "Cloud Architect",
+        "company": "Personio SE & Co. KG",
+        "city": "Munich",
+        "internationalCountryCodes": "DE"
+    },
+    {
+        "name": "Chloé",
+        "surname": "Sánchez",
+        "jobPosition": "DevOps Specialist",
+        "company": "Supercell Oy",
+        "city": "Helsinki",
+        "internationalCountryCodes": "FI"
+    },
+    {
+        "name": "Riccardo",
+        "surname": "Schmidt",
+        "jobPosition": "Frontend Engineer",
+        "company": "King Digital Entertainment",
+        "city": "London",
+        "internationalCountryCodes": "UK"
+    },
+    {
+        "name": "Martina",
+        "surname": "Castro",
+        "jobPosition": "Backend Engineer",
+        "company": "Cabify",
+        "city": "Madrid",
+        "internationalCountryCodes": "ES"
+    },
+    {
+        "name": "Alejandro",
+        "surname": "Weber",
+        "jobPosition": "Frontend Engineer",
+        "company": "ASML Holding N.V.",
+        "city": "Veldhoven",
+        "internationalCountryCodes": "NL"
+    },
+    {
+        "name": "Maximilian",
+        "surname": "Kowalczyk",
+        "jobPosition": "Cloud Architect",
+        "company": "Infineon Technologies AG",
+        "city": "Munich",
+        "internationalCountryCodes": "DE"
+    },
+    {
+        "name": "James",
+        "surname": "Petit",
+        "jobPosition": "Systems Administrator",
+        "company": "TeamViewer SE",
+        "city": "Göppingen",
+        "internationalCountryCodes": "DE"
+    },
+    {
+        "name": "Lucas",
+        "surname": "Colombo",
+        "jobPosition": "QA Engineer",
+        "company": "Spotify Technology S.A.",
+        "city": "Stockholm",
+        "internationalCountryCodes": "SE"
+    },
+    {
+        "name": "Charlie",
+        "surname": "Pérez",
+        "jobPosition": "Solutions Architect",
+        "company": "Adyen N.V.",
+        "city": "Amsterdam",
+        "internationalCountryCodes": "NL"
+    },
+    {
+        "name": "Paul",
+        "surname": "Díaz",
+        "jobPosition": "Full Stack Developer",
+        "company": "Delivery Hero SE",
+        "city": "Berlin",
+        "internationalCountryCodes": "DE"
+    },
+    {
+        "name": "Louise",
+        "surname": "Wójcik",
+        "jobPosition": "Engineering Manager",
+        "company": "Klarna Bank AB",
+        "city": "Stockholm",
+        "internationalCountryCodes": "SE"
+    },
+    {
+        "name": "Hugo",
+        "surname": "Navarro",
+        "jobPosition": "Data Scientist",
+        "company": "Factorial",
+        "city": "Barcelona",
+        "internationalCountryCodes": "ES"
+    },
+    {
+        "name": "Noah",
+        "surname": "Lewandowski",
+        "jobPosition": "Machine Learning Engineer",
+        "company": "Checkout.com",
+        "city": "London",
+        "internationalCountryCodes": "UK"
+    },
+    {
+        "name": "Henry",
+        "surname": "Johnson",
+        "jobPosition": "DevOps Specialist",
+        "company": "BlaBlaCar",
+        "city": "Paris",
+        "internationalCountryCodes": "FR"
+    },
+    {
+        "name": "Tommaso",
+        "surname": "López",
+        "jobPosition": "Senior Developer",
+        "company": "Bolt Technology OÜ",
+        "city": "Tallinn",
+        "internationalCountryCodes": "EE"
+    },
+    {
+        "name": "Francesco",
+        "surname": "Robert",
+        "jobPosition": "Systems Administrator",
+        "company": "UiPath",
+        "city": "Bucharest",
+        "internationalCountryCodes": "RO"
+    },
+    {
+        "name": "Louise",
+        "surname": "Díaz",
+        "jobPosition": "Machine Learning Engineer",
+        "company": "Skyscanner Ltd",
+        "city": "Edinburgh",
+        "internationalCountryCodes": "UK"
+    },
+    {
+        "name": "Nathan",
+        "surname": "Kamiński",
+        "jobPosition": "Frontend Engineer",
+        "company": "Booking.com",
+        "city": "Amsterdam",
+        "internationalCountryCodes": "NL"
+    },
+    {
+        "name": "Paul",
+        "surname": "Durand",
+        "jobPosition": "QA Engineer",
+        "company": "N26 GmbH",
+        "city": "Berlin",
+        "internationalCountryCodes": "DE"
+    },
+    {
+        "name": "Leonardo",
+        "surname": "Wójcik",
+        "jobPosition": "Cloud Architect",
+        "company": "Wolt Enterprises Oy",
+        "city": "Helsinki",
+        "internationalCountryCodes": "FI"
+    },
+    {
+        "name": "Thomas",
+        "surname": "Fischer",
+        "jobPosition": "Cloud Architect",
+        "company": "Criteo S.A.",
+        "city": "Paris",
+        "internationalCountryCodes": "FR"
+    }
+]
