@@ -1,15 +1,14 @@
 import './nav-bar-profile-laptop.css';
 import logoUrl from '/src/assets/icons/Header.svg';
-
 import searchIcon from "/src/assets/icons/Search.png";
 import bellIcon from "/src/assets/icons/NavBar-profile/bell.png";
 import gearIcon from "/src/assets/icons/NavBar-profile/settings-gear.png";
 import profilePhoto from "/src/assets/images/nav-bar-profile/profile-photo-4.png";
 
-export const createNavBar = (): null | Element => {
-  const navBar = document.createElement('div');
+export const createNavBarProfile = (): null | Element => {
+  const navBarProfile = document.createElement('div');
 
-  navBar.innerHTML = ` <header class="container-header">
+  navBarProfile.innerHTML = ` <header class="container-header">
       <img src="${logoUrl}" alt="nombre de la aplicación: alumni" class="logo-nav-bar">
       <nav class="container-nav-bar">
         <ul class="navigation-menu" aria-label="Menú de navegación">
@@ -27,5 +26,5 @@ export const createNavBar = (): null | Element => {
     </header>
 `;
 
-  return navBar.firstElementChild;
+  return navBarProfile.firstElementChild;
 }
