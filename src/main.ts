@@ -3,16 +3,12 @@ import { createHomeLaptopPage } from "./pages/home-laptop";
 import { createHomePhonePage } from './pages/home-phone';
 
 
-import { createWelcomePage } from './pages/welcome-phone/welcome';
+// import { createWelcomePage } from './pages/welcome-phone/welcome';
 
-import { createNavBar } from './components/nav-bar-laptop/nav-bar';
-import { createMainHomeLaptop } from "./components/main-home-laptop/main-home-laptop";
-import { createFooter } from "./components/footer-laptop/footer";
-
-import { createHeaderPhone } from './components/header-phone/header-phone';
-import { createTabBar } from './components/tab-bar-phone/tab-bar-phone';
-import { createMainHomePhone } from "./components/main-home-phone/main-home-phone";
 // import { creteSignUp } from "./pages/sign-up-phone-laptop/sign-up";
+import { createNetworkingLaptopPage } from './pages/networking-laptop';
+import { createJobOpportunitiesLaptopPage } from './pages/job-opportunities-laptop';
+
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -33,7 +29,8 @@ if (app) {
     }
 
     const renderDesktop = () => {
-        createHomeLaptopPage();
+        // createHomeLaptopPage();
+        createNetworkingLaptopPage();
     }
 
     const renderApp = () => {

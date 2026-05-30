@@ -27,5 +27,7 @@ export const createNavBar = (): null | Element => {
     </header>
 `;
   // }
+
+  // AÑADO firstElementChild SOLO para hacer desaparecer el div envolvente, así al insertarlo div desaparece y header es lo que queda.
   return navBar.firstElementChild;
 }

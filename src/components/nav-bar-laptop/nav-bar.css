@@ -102,3 +102,26 @@
     background: var(--gradient);
 }
 
+.profile-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    height: 100%;
+    margin-right: clamp(20px, 3vw, 40px);
+}
+
+.profile-options a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-options a:nth-child(1) img {
+    width: 24px;
+
+}
+
+.profile-options a:nth-child(4) img {
+    border-radius: 50%;
+}
