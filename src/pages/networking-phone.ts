@@ -4,7 +4,7 @@ import { createHeaderPhone } from '../components/header-phone/header-phone';
 import { createMainHomePhone } from "../components/main-home-phone/main-home-phone";
 import { createTabBar } from '../components/tab-bar-phone/tab-bar-phone';
 
-export const createHomePhonePage = () => {
+export const createNetworkingPhonePage = () => {
     
     const app = document.getElementById('insertApp');
 
