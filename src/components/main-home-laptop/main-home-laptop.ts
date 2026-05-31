@@ -8,6 +8,7 @@ import imgEmma from "/src/assets/images/Opinions/Card_2/Emma.png";
 import iconStar from "/src/assets/icons/Opinions/Frame.svg";
 import iconBack from "/src/assets/icons/Opinions/Buttons/Back.png";
 import iconNext from "/src/assets/icons/Opinions/Buttons/Next.png";
+import { navigateTo, type Page } from '../../router';
 
 export const createMainHomeLaptop = (): Element | null => {
 
@@ -19,7 +20,7 @@ export const createMainHomeLaptop = (): Element | null => {
       <p>Connectant i empoderant a la nostra comunitat global d’alumnes</p>
       <div class="buttons-hero">
         <a data-page="sign-up" class="button-register-hero" href="#" aria-label="link a registro">Uneix-te</a>
-        <a data-page="request-demo" class="button-info-hero" href="#" aria-label="link a información sobre el proyecto">Mira que fem</a>
+        <a class="button-info-hero" href="#" aria-label="link a información sobre el proyecto">Mira que fem</a>
       </div>
       <video class= "video-box" autoplay muted loop playsinline controls aria-label="Video de una reunión de exalumnos">
         <source src="${videoHero}" type="video/mp4">
@@ -127,7 +128,19 @@ export const createMainHomeLaptop = (): Element | null => {
   </main>
 `;
 
-  return mainHomeLaptop.firstElementChild;
+  const mainHomeLaptopElement = mainHomeLaptop.firstElementChild;
+
+  if (mainHomeLaptopElement) {
+    const links = mainHomeLaptopElement.querySelectorAll('[data-page]');
+
+    links.forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const linkto = (link as HTMLElement).dataset.page;
+        if (linkto) navigateTo(linkto as Page);
+      });
+    });
+  }
+
+  return mainHomeLaptopElement;
 }
-
-

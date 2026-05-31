@@ -5,12 +5,14 @@ import frameIcon from '/src/assets/icons/Sign-up/Frame.svg';
 import appleIcon from '/src/assets/icons/Sign-up/Apple.svg';
 import googleIcon from '/src/assets/icons/Sign-up/Google.svg';
 import fecebookIcon from '/src/assets/icons/Sign-up/Facebook.svg';
+import { navigateTo, type Page } from '../../router';
+// import type { Page } from '../../router';
 
 export const creteSignUp = (): Element | null => {
 
-    const signUp = document.createElement('div');
+  const signUp = document.createElement('div');
 
-    signUp.innerHTML = `<div class="general-container">
+  signUp.innerHTML = `<div class="general-container">
     <header>
       <h1>Crea un compte</h1>
       <p>Uneix-te a nosaltres per connectar-te i compartir oportunitats!</p>
@@ -51,5 +53,19 @@ export const creteSignUp = (): Element | null => {
 
   </div>`;
 
-    return signUp.firstElementChild;
+  const signUpPageElement = signUp.firstElementChild;
+
+  if (signUpPageElement) {
+    const links = signUpPageElement.querySelectorAll('[data-page]');
+
+    links.forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const linkto = (link as HTMLElement).dataset.page;
+        if (linkto) navigateTo(linkto as Page);
+      });
+    });
+  }
+
+  return signUpPageElement;
 }

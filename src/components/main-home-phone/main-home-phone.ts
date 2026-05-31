@@ -1,12 +1,13 @@
 import './main-home-phone.css';
 import networkingPhoto from '/src/assets/images/main-phone/redexalumnos.png';
 import jobPortalPhoto from '/src/assets/images/main-phone/jobportal.png';
+import { navigateTo, type Page } from '../../router';
 
 export const createMainHomePhone = (): Element | null => {
 
-    const mainHomePhone = document.createElement('div');
+  const mainHomePhone = document.createElement('div');
 
-    mainHomePhone.innerHTML = `    
+  mainHomePhone.innerHTML = `    
     <main class="container-main">
       <div class="container-link">
         <img src="${networkingPhoto}" alt="Foto red de exalumnos">
@@ -23,5 +24,19 @@ export const createMainHomePhone = (): Element | null => {
     </main>
     `;
 
-    return mainHomePhone.firstElementChild
+  const mainHomePhoneElement = mainHomePhone.firstElementChild;
+
+  if (mainHomePhoneElement) {
+    const links = mainHomePhoneElement.querySelectorAll('[data-page]');
+
+    links.forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const linkto = (link as HTMLElement).dataset.page;
+        if (linkto) navigateTo(linkto as Page);
+      });
+    });
+  }
+
+  return mainHomePhoneElement;
 }

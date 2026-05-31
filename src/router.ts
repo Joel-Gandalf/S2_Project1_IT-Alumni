@@ -9,7 +9,7 @@ export const initRouter = (render: RenderFn) => {
 
 // Cuando en main.ts llamas a initRouter(renderApp), le estás pasando tu función renderApp como argumento. El router la guarda en renderFn y a partir de ese momento navigateTo puede llamar a renderFn() que es exactamente lo mismo que llamar a renderApp(), pero sin importarla directamente.
 
-type Page = 'welcome' | 'home'| 'sign-up' | 'networking' | 'job-opportunities';
+export type Page = 'welcome' | 'home' | 'sign-up' | 'networking' | 'job-opportunities' | 'profile';
 
 export let currentPage: Page = 'home';
 // Al exportar navigateTo esta lleva "consigo" la referencia a currentPage.

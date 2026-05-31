@@ -1,10 +1,11 @@
 import './tab-bar-phone.css';
+import { navigateTo, type Page } from '../../router';
 
 export const createTabBar = (): Element | null => {
 
-    const tabBar = document.createElement('div');
+  const tabBar = document.createElement('div');
 
-    tabBar.innerHTML = `  <nav class="tab-bar-container" aria-label="Menú principal">
+  tabBar.innerHTML = `  <nav class="tab-bar-container" aria-label="Menú principal">
     <ul>
       <li>
         <button data-page="home" class="button-link active" aria-label="Ir a inicio">
@@ -50,20 +51,33 @@ export const createTabBar = (): Element | null => {
     </ul>
   </nav>
   `;
-    
-    const tabBarElement = tabBar.firstElementChild
-    
-    if (tabBarElement) {
-        const buttons = tabBarElement.querySelectorAll('.button-link');
-        buttons.forEach(button => {
-            button.addEventListener('click', () => {
-                buttons.forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-            });
-        });
-    }
 
-    return tabBarElement
+  const tabBarElement = tabBar.firstElementChild;
+
+  if (tabBarElement) {
+    // const links = tabBarElement.querySelectorAll('[data-page]');
+
+    // links.forEach(link => {
+    //   link.addEventListener("click", (e) => {
+    //     e.preventDefault();
+    //     const linkto = (link as HTMLElement).dataset.page;
+    //     if (linkto) navigateTo(linkto as Page);
+    //   });
+    // });
+
+    const buttons = tabBarElement.querySelectorAll('.button-link');
+    buttons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        buttons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        const linkto = (button as HTMLElement).dataset.page;
+        if (linkto) navigateTo(linkto as Page);
+      });
+    });
+  }
+
+  return tabBarElement;
 }
 
 // classList es una propiedad del DOM que te da acceso a las clases CSS de un elemento. Tiene varios métodos útiles:

@@ -3,7 +3,7 @@
   import alignIcon from '/src/assets/icons/Mobile/header/align-bottom.png';
   import profileFoto from '/src/assets/images/header-phone/profile-photo.png';
   import searchIcon from '/src/assets/icons/Search.png';
-  
+  import { navigateTo, type Page } from '../../router';
   
   export const createHeaderPhone = (title: string, showBack: boolean = false): Element | null => {
 
@@ -26,8 +26,22 @@
     
   </header>
   `;
-    
-    return headerPhone.firstElementChild
+  
+    const headerPhoneElement = headerPhone.firstElementChild;
+
+    if (headerPhoneElement) {
+      const links = headerPhoneElement.querySelectorAll('[data-page]');
+
+      links.forEach(link => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const linkto = (link as HTMLElement).dataset.page;
+          if (linkto) navigateTo(linkto as Page);
+        });
+      });
+    }  
+
+    return headerPhoneElement;
   }
   
   

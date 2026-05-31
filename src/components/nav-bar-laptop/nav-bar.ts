@@ -2,6 +2,7 @@ import './nav-bar.css';
 import logoUrl from '/src/assets/icons/Header.svg';
 import iconRegisterUrl from "/src/assets/icons/Navbar/register.svg";
 import iconProfileUrl from "/src/assets/icons/Navbar/profile.svg";
+import { navigateTo, type Page } from '../../router';
 
 export const createNavBar = (): null | Element => {
   const navBar = document.createElement('div');
@@ -29,7 +30,21 @@ export const createNavBar = (): null | Element => {
   // }
 
   // AÑADO firstElementChild SOLO para hacer desaparecer el div envolvente, así al insertarlo div desaparece y header es lo que queda.
-  return navBar.firstElementChild;
+  const navBarElement = navBar.firstElementChild;
+
+  if (navBarElement) {
+    const links = navBarElement.querySelectorAll('[data-page]');
+
+    links.forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const linkto = (link as HTMLElement).dataset.page;
+        if (linkto) navigateTo(linkto as Page);
+      });
+    });
+  }
+
+  return navBarElement;
 }
 
 // DATA-* :   son atributos personalizados de HTML que te permiten guardar información extra en un elemento sin afectar su comportamiento. El * puede ser cualquier nombre que elijas, en este caso page.
