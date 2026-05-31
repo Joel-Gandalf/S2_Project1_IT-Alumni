@@ -12,13 +12,13 @@ export const createMainHomePhone = (): Element | null => {
         <img src="${networkingPhoto}" alt="Foto red de exalumnos">
         <h2>Xarxa</h2>
         <p>Connecta amb professionals del teu camp.</p>
-        <a href="#" aria-label="Ir a red de exalumnos">Explora</a>
+        <a data-page="networking" href="#" aria-label="Ir a red de exalumnos">Explora</a>
       </div>
       <div class="container-link">
         <img src="${jobPortalPhoto}" alt="Foto portal laboral">
         <h2>Oportunitats de feina</h2>
         <p>Descobreix ofertes de treball adaptades a les teves habilitats.</p>
-        <a href="#" aria-label="Ir a búsqueda de empleo">Cerca Feines</a>
+        <a data-page="job-opportunities" href="#" aria-label="Ir a búsqueda de empleo">Cerca Feines</a>
       </div>
     </main>
     `;

@@ -10,7 +10,7 @@ export const createNetworkingPhonePage = () => {
 
     if (app) {
         
-        const headerPhone = createHeaderPhone('Xarxa');
+        const headerPhone = createHeaderPhone('Xarxa', true);
         if (headerPhone) app.appendChild(headerPhone);
 
         const mainHomePhone = createMainHomePhone();

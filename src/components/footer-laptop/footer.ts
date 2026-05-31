@@ -17,7 +17,7 @@ export const createFooter = (): Element | null => {
             <img src="${iconRegisterfooter}" alt="Icono de mensajería">
             <label for="email"><input id="email" type="email" placeholder="El teu email" aria-label="Escribe aquí tú email"></label>
         </div>
-        <input type="submit" value="Subscriu-te" aria-label="Botón para suscribirse">
+        <input type="submit" value="Subscriu-te" aria-label="Botón para suscribirse al boletín informativo">
       </form>
     </section>
 
@@ -32,7 +32,7 @@ export const createFooter = (): Element | null => {
         <li><a href="#" aria-label="Link a el centro de ayuda">Centre d'ajuda</a></li>
         <li><a href="#" aria-label="Link para contactar con nosotros">Contacta'ns</a></li>
         <li><a href="#" aria-label="Link a FAQs">FAQs</a></li>
-        <li><a href="#" aria-label="Link a oportunidades laborales">Oportunitats laborals</a></li>
+        <li><a data-page="job-opportunities" href="#" aria-label="Link a oportunidades laborales">Oportunitats laborals</a></li>
       </ul>
     </section>
 

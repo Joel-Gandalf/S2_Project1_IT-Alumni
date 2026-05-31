@@ -13,7 +13,7 @@ export const createWelcomePage = (): Element | null => {
         <p class="paragraph-hero">Connectant i empoderant a la nostra comunitat global d’alumnes</p>
       </section>
       <section class="join-button-welcome">
-        <a href="#" class="join-button">Uneix-te</a>
+        <a data-page="sign-up" href="#" class="join-button">Uneix-te</a>
       </section>
     </div> 
 `;

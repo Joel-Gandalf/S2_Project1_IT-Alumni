@@ -11,7 +11,7 @@ export const createProfileOptions = (): Element | null => {
           <a href="#"><img src="${searchIcon}" alt="Ir a busqueda"></a>
           <a href="#"><img src="${bellIcon}" alt="Ir a notificaciones"></a>
           <a href="#"><img src="${gearIcon}" alt="Ir a configuración"></a>
-          <a href="#" aria-label="Ir a editar perfil"><img src="${profilePhoto}" alt="Tú foto de perfil"></a>
+          <a data-page="profile" href="#" aria-label="Ir a editar perfil"><img src="${profilePhoto}" alt="Tú foto de perfil"></a>
         </div>
 `;
 

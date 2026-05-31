@@ -10,7 +10,7 @@ export const createJobOpportunitiesPhonePage = () => {
 
     if (app) {
         
-        const headerPhone = createHeaderPhone('Oportunitats de feina');
+        const headerPhone = createHeaderPhone('Oportunitats de feina', true);
         if (headerPhone) app.appendChild(headerPhone);
 
         const mainHomePhone = createMainHomePhone();
