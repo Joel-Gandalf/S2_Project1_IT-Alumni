@@ -11,7 +11,7 @@ export const initRouter = (render: RenderFn) => {
 
 export type Page = 'welcome' | 'home' | 'sign-up' | 'networking' | 'job-opportunities' | 'profile';
 
-export let currentPage: Page = 'home';
+export let currentPage: Page = 'welcome';
 // Al exportar navigateTo esta lleva "consigo" la referencia a currentPage.
 // la función "recuerda" el entorno donde fue creada y puede acceder a variables del scope exterior, aunque este no se exporte como tal.
 

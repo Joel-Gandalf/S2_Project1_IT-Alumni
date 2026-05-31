@@ -12,7 +12,8 @@ export const creteSignUp = (): Element | null => {
 
   const signUp = document.createElement('div');
 
-  signUp.innerHTML = `<div class="general-container">
+  signUp.innerHTML = ` <div class="sign-up-page">
+  <div class="general-container">
     <header>
       <h1>Crea un compte</h1>
       <p>Uneix-te a nosaltres per connectar-te i compartir oportunitats!</p>
@@ -51,6 +52,7 @@ export const creteSignUp = (): Element | null => {
       <button data-page="home" type="button" id="logIn">Inicia sessió</button>
     </footer>
 
+  </div>
   </div>`;
 
   const signUpPageElement = signUp.firstElementChild;

@@ -143,8 +143,8 @@
 }
 
 @media (min-width: 768px) {
-    body {
-        background: no-repeat center/cover url('./assets/images/sign-up-laptop/rsz_background-sign-up.png');
+    .sign-up-page {
+        background: no-repeat center/cover url('/src/assets/images/sign-up-laptop/rsz_background-sign-up.png');
         display: flex;
         width: 100vw;
         height: 100vh;

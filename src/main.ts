@@ -41,6 +41,8 @@ if (app) {
 
     const renderDesktop = () => {
         switch (currentPage) {
+            case 'welcome' : createHomeLaptopPage();
+                break;
             case 'home': createHomeLaptopPage();  
                 break;
             case 'sign-up':
