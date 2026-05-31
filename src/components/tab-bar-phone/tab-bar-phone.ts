@@ -1,5 +1,5 @@
 import './tab-bar-phone.css';
-import { navigateTo, type Page } from '../../router';
+import { navigateTo, currentPage, type Page } from '../../router';
 
 export const createTabBar = (): Element | null => {
 
@@ -67,6 +67,13 @@ export const createTabBar = (): Element | null => {
 
     const buttons = tabBarElement.querySelectorAll('.button-link');
     buttons.forEach(button => {
+      const page = (button as HTMLElement).dataset.page;
+      if (page === currentPage) {
+        button.classList.add('active');
+      } else {
+        button.classList.remove('active');
+      }
+
       button.addEventListener('click', (e) => {
         e.preventDefault();
         buttons.forEach(btn => btn.classList.remove('active'));
