@@ -12,6 +12,7 @@ import { createJobOpportunitiesPhonePage } from "./pages/job-opportunities-phone
 
 import { initRouter } from "./router";
 import { currentPage } from "./router";
+import { isAuthentificated } from './router';
 
 // 1. Creamos el objeto de la Media Query a nivel global del archivo
 const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -32,9 +33,21 @@ if (app) {
                 break;
             case 'home': createHomePhonePage();
                 break;
-            case 'networking': createNetworkingPhonePage();
+            case 'networking':
+                if (!isAuthentificated) {
+                    alert('Has de registrar-te primer!');
+                    createNetworkingPhonePage();
+                    return;
+                }
+                createNetworkingPhonePage();                
                 break;
-            case 'job-opportunities': createJobOpportunitiesPhonePage();
+            case 'job-opportunities':
+                if(!isAuthentificated) {
+                    alert('Has de registrar-te primer!');
+                    createJobOpportunitiesPhonePage();
+                    return;
+                }
+                createJobOpportunitiesPhonePage();                
                 break;
         }
     }
@@ -49,9 +62,21 @@ if (app) {
                 const signUp = creteSignUp();
                 if (signUp) app.appendChild(signUp);
                 break;
-            case 'networking': createNetworkingLaptopPage();
+            case 'networking': 
+                if (!isAuthentificated) {
+                    alert('Has de registrar-te primer!');
+                    createHomeLaptopPage();
+                    return;
+                }
+                createNetworkingLaptopPage();
                 break;
-            case 'job-opportunities': createJobOpportunitiesLaptopPage();
+            case 'job-opportunities': 
+                if(!isAuthentificated) {
+                    alert('Has de registrar-te primer!');
+                    createHomeLaptopPage();
+                    return;
+                }
+                createJobOpportunitiesLaptopPage();
                 break;
         }
     }

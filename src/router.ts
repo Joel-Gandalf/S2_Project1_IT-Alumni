@@ -17,7 +17,11 @@ export let currentPage: Page = 'welcome';
 
 // En este caso la exportamos PQ además de esta función también la necesita el switch de main.ts.
 // como let renderFn solo se usa en initRouter en router.ts??? y nadie más necesita acceder a ella no se exporta.
+
+export let isAuthentificated: boolean = false
+
 export const navigateTo = (page: Page) => {
+    if (currentPage === 'sign-up') isAuthentificated = true;
     currentPage = page;
     renderFn();
 }
