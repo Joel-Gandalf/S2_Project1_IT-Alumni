@@ -8,6 +8,7 @@ import imgEmma from "/src/assets/images/Opinions/Card_2/Emma.png";
 import iconStar from "/src/assets/icons/Opinions/Frame.svg";
 import iconBack from "/src/assets/icons/Opinions/Buttons/Back.png";
 import iconNext from "/src/assets/icons/Opinions/Buttons/Next.png";
+import { navigateTo, type Page } from '../../router';
 
 export const createMainHomeLaptop = (): Element | null => {
 
@@ -18,7 +19,7 @@ export const createMainHomeLaptop = (): Element | null => {
       <h1>Benvingut, Alumni</h1>
       <p>Connectant i empoderant a la nostra comunitat global d’alumnes</p>
       <div class="buttons-hero">
-        <a class="button-register-hero" href="#" aria-label="link a registro">Uneix-te</a>
+        <a data-page="sign-up" class="button-register-hero" href="#" aria-label="link a registro">Uneix-te</a>
         <a class="button-info-hero" href="#" aria-label="link a información sobre el proyecto">Mira que fem</a>
       </div>
       <video class= "video-box" autoplay muted loop playsinline controls aria-label="Video de una reunión de exalumnos">
@@ -37,21 +38,21 @@ export const createMainHomeLaptop = (): Element | null => {
           <img src="${iconHat}" alt="Icono red social de excompañeros">
           <p>Comparteix i no perdis el contacte: Puja els teus moments importants, explica com va tot i queda amb els
             companys. Una xarxa per estar més a prop.</p>
-          <a class="button-register-benefits" href="#" aria-label="link a registro">Apunta't ja</a>
+          <a data-page="sign-up" class="button-register-benefits" href="#" aria-label="link a registro">Apunta't ja</a>
         </div>
 
         <div class="benefit-card">
           <img src="${iconBabbling}" alt="Icono discusiones">
           <p>Participa en discussions: Intercanvia coneixements, punts de vista i opinions sobre temes que t'interessen.
           </p>
-          <a class="button-register-benefits" href="#" aria-label="link a registro">Apunta't ja</a>
+          <a data-page="sign-up" class="button-register-benefits" href="#" aria-label="link a registro">Apunta't ja</a>
         </div>
 
         <div class="benefit-card">
           <img src="${iconPerson}" alt="Icono conexiones personales">
           <p>Xarxa Alumni: Connecta amb companys de promoció, fes noves amistats i crea records per durar tota la vida.
           </p>
-          <a class="button-register-benefits" href="#" aria-label="link a registro">Apunta't ja</a>
+          <a data-page="sign-up" class="button-register-benefits" href="#" aria-label="link a registro">Apunta't ja</a>
         </div>
 
       </div>
@@ -127,7 +128,19 @@ export const createMainHomeLaptop = (): Element | null => {
   </main>
 `;
 
-  return mainHomeLaptop.firstElementChild;
+  const mainHomeLaptopElement = mainHomeLaptop.firstElementChild;
+
+  if (mainHomeLaptopElement) {
+    const links = mainHomeLaptopElement.querySelectorAll('[data-page]');
+
+    links.forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const linkto = (link as HTMLElement).dataset.page;
+        if (linkto) navigateTo(linkto as Page);
+      });
+    });
+  }
+
+  return mainHomeLaptopElement;
 }
-
-

@@ -1,6 +1,7 @@
 .general-footer {
     background: var(--paragraph-color);
     color: var(--text-button-color);
+    width: 100%;
     min-height: 407px;
     padding-top: 45px;
     display: flex;

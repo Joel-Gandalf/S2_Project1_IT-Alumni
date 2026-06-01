@@ -4,13 +4,13 @@ import { createHeaderPhone } from '../components/header-phone/header-phone';
 import { createMainHomePhone } from "../components/main-home-phone/main-home-phone";
 import { createTabBar } from '../components/tab-bar-phone/tab-bar-phone';
 
-export const createHomePhonePage = () => {
+export const createJobOpportunitiesPhonePage = () => {
     
     const app = document.getElementById('insertApp');
 
     if (app) {
         
-        const headerPhone = createHeaderPhone('Oportunitats de feina');
+        const headerPhone = createHeaderPhone('Oportunitats de feina', true);
         if (headerPhone) app.appendChild(headerPhone);
 
         const mainHomePhone = createMainHomePhone();

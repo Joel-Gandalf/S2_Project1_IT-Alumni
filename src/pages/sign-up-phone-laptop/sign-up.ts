@@ -1,16 +1,19 @@
 import './sign-up.css';
-import userIcon from './assets/icons/Sign-up/User.svg';
-import mailIcon from './assets/icons/Sign-up/Mail.svg';
-import frameIcon from './assets/icons/Sign-up/Frame.svg';
-import appleIcon from './assets/icons/Sign-up/Apple.svg';
-import googleIcon from './assets/icons/Sign-up/Google.svg';
-import fecebookIcon from './assets/icons/Sign-up/Facebook.svg';
+import userIcon from '/src/assets/icons/Sign-up/User.svg';
+import mailIcon from '/src/assets/icons/Sign-up/Mail.svg';
+import frameIcon from '/src/assets/icons/Sign-up/Frame.svg';
+import appleIcon from '/src/assets/icons/Sign-up/Apple.svg';
+import googleIcon from '/src/assets/icons/Sign-up/Google.svg';
+import fecebookIcon from '/src/assets/icons/Sign-up/Facebook.svg';
+import { navigateTo, type Page } from '../../router';
+// import type { Page } from '../../router';
 
 export const creteSignUp = (): Element | null => {
 
-    const signUp = document.createElement('div');
+  const signUp = document.createElement('div');
 
-    signUp.innerHTML = `<div class="general-container">
+  signUp.innerHTML = ` <div class="sign-up-page">
+  <div class="general-container">
     <header>
       <h1>Crea un compte</h1>
       <p>Uneix-te a nosaltres per connectar-te i compartir oportunitats!</p>
@@ -29,7 +32,7 @@ export const creteSignUp = (): Element | null => {
         <label><input type="checkbox" name="acceptTermsConditions" id="check" required aria-required="true">Accepto els
           Termes i Condicions</label>
 
-        <input type="submit" value="Registra’t">
+        <input data-page="home" type="submit" value="Registra’t">
       </form>
 
       <div class="divider">
@@ -37,19 +40,34 @@ export const creteSignUp = (): Element | null => {
       </div>
 
       <section class="sign-up-with">
-        <button type="button"><img src="${appleIcon}" alt="Icono Apple">Continua amb Apple</button>
-        <button type="button"><img src="${googleIcon}" alt="Icono Google">Continua amb Google</button>
-        <button type="button"><img src="${fecebookIcon}" alt="Icono Facebook">Continua amb Facebook</button>
+        <button data-page="home" type="button"><img src="${appleIcon}" alt="Icono Apple">Continua amb Apple</button>
+        <button data-page="home" type="button"><img src="${googleIcon}" alt="Icono Google">Continua amb Google</button>
+        <button data-page="home" type="button"><img src="${fecebookIcon}" alt="Icono Facebook">Continua amb Facebook</button>
       </section>
 
     </main>
 
     <footer class="sign-up-footer">
       <p>Ja t'has registrat?</p>
-      <button type="button" id="logIn">Inicia sessió</button>
+      <button data-page="home" type="button" id="logIn">Inicia sessió</button>
     </footer>
 
+  </div>
   </div>`;
 
-    return signUp.firstElementChild;
+  const signUpPageElement = signUp.firstElementChild;
+
+  if (signUpPageElement) {
+    const links = signUpPageElement.querySelectorAll('[data-page]');
+
+    links.forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const linkto = (link as HTMLElement).dataset.page;
+        if (linkto) navigateTo(linkto as Page);
+      });
+    });
+  }
+
+  return signUpPageElement;
 }

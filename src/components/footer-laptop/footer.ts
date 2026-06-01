@@ -5,6 +5,7 @@ import lettersLogo from "/src/assets/icons/Footer/lumni.png";
 import iconFacebook from "/src/assets/icons/Footer/SocialNetwork/LogoFacebook.png";
 import iconLinkedin from "/src/assets/icons/Footer/SocialNetwork/LogoLinkedin.png";
 import iconYoutube from "/src/assets/icons/Footer/SocialNetwork/LogoYoutube.png";
+import { navigateTo, type Page } from '../../router';
 
 export const createFooter = (): Element | null => {
   const footer = document.createElement('div');
@@ -17,7 +18,7 @@ export const createFooter = (): Element | null => {
             <img src="${iconRegisterfooter}" alt="Icono de mensajería">
             <label for="email"><input id="email" type="email" placeholder="El teu email" aria-label="Escribe aquí tú email"></label>
         </div>
-        <input type="submit" value="Subscriu-te" aria-label="Botón para suscribirse">
+        <input type="submit" value="Subscriu-te" aria-label="Botón para suscribirse al boletín informativo">
       </form>
     </section>
 
@@ -32,7 +33,7 @@ export const createFooter = (): Element | null => {
         <li><a href="#" aria-label="Link a el centro de ayuda">Centre d'ajuda</a></li>
         <li><a href="#" aria-label="Link para contactar con nosotros">Contacta'ns</a></li>
         <li><a href="#" aria-label="Link a FAQs">FAQs</a></li>
-        <li><a href="#" aria-label="Link a oportunidades laborales">Oportunitats laborals</a></li>
+        <li><a data-page="job-opportunities" href="#" aria-label="Link a oportunidades laborales">Oportunitats laborals</a></li>
       </ul>
     </section>
 
@@ -65,6 +66,16 @@ export const createFooter = (): Element | null => {
   const footerElement = footer.firstElementChild;
 
   if (footerElement) {
+    const links = footerElement.querySelectorAll('[data-page]');
+
+    links.forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const linkto = (link as HTMLElement).dataset.page;
+        if (linkto) navigateTo(linkto as Page);
+      });
+    });
+
     // const selectLang = footerElement.getElementById('language') as HTMLSelectElement;
 
     // NO se puede USAR getElementById es un MÉTODO de DOCUMENT, NO de un ELEMENTO. Para buscar dentro de un elemento usas querySelector
@@ -81,7 +92,6 @@ export const createFooter = (): Element | null => {
         selectedOption.setAttribute('hidden', 'true');
       });
     }
-
   }
 
   return footerElement;
