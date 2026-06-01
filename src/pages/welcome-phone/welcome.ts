@@ -23,16 +23,16 @@ export const createWelcomePage = (): Element | null => {
   const welcomePageElement = welcomePage.firstElementChild;
 
   if (welcomePageElement) {
-    welcomePageElement.addEventListener("click", (e) => {
-      e.preventDefault();
-      const link = welcomePageElement.querySelector('[data-page="sign-up"]');
+    const link = welcomePageElement.querySelector('[data-page="sign-up"]');
 
-      if (link) {
+    if (link) {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
         const linkto = (link as HTMLElement).dataset.page;
         // if (linkto) navigateTo(linkto as any); más inseguro.
         if (linkto) navigateTo(linkto as Page);
-      }
-    });
+      });
+    }
   }
 
   return welcomePageElement;
