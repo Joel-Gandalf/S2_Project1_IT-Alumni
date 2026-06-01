@@ -76,8 +76,9 @@ export const createTabBar = (): Element | null => {
 
       button.addEventListener('click', (e) => {
         e.preventDefault();
-        buttons.forEach(btn => btn.classList.remove('active'));
-        button.classList.add('active');
+        // NO SIRVE DE NADA AQUÍ PQ al renderizarse pasa por innerHTML= "" y esto destruye todo el DOM, incluido las classes CSS aquí creadas. ARRIBA SÍ FUNCIONA PQ las class se crean al construir la página después de su reseteo.
+        // buttons.forEach(btn => btn.classList.remove('active'));
+        // button.classList.add('active');
         const linkto = (button as HTMLElement).dataset.page;
         if (linkto) navigateTo(linkto as Page);
       });
