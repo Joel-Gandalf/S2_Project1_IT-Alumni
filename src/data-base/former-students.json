@@ -6,7 +6,10 @@
         "company": "Revolut Ltd.",
         "city": "London",
         "internationalCountryCodes": "UK",
-        "classOf": 2024
+        "classOf": 2024,
+        "followers": 1420,
+        "lastActivity": 1779951600000,
+        "NumberConnectionsLastMonth": 42
     },
     {
         "name": "Alejandro",
@@ -15,7 +18,10 @@
         "company": "Cabify",
         "city": "Madrid",
         "internationalCountryCodes": "ES",
-        "classOf": 2012
+        "classOf": 2012,
+        "followers": 3850,
+        "lastActivity": 1778734800000,
+        "NumberConnectionsLastMonth": 15
     },
     {
         "name": "Mateo",
@@ -24,7 +30,10 @@
         "company": "Factorial",
         "city": "Barcelona",
         "internationalCountryCodes": "ES",
-        "classOf": 2018
+        "classOf": 2018,
+        "followers": 2910,
+        "lastActivity": 1780214400000,
+        "NumberConnectionsLastMonth": 58
     },
     {
         "name": "Lucía",
@@ -33,7 +42,10 @@
         "company": "Glovo",
         "city": "Barcelona",
         "internationalCountryCodes": "ES",
-        "classOf": 2023
+        "classOf": 2023,
+        "followers": 740,
+        "lastActivity": 1779268800000,
+        "NumberConnectionsLastMonth": 23
     },
     {
         "name": "Leonardo",
@@ -42,7 +54,10 @@
         "company": "Spotify Technology S.A.",
         "city": "Stockholm",
         "internationalCountryCodes": "SE",
-        "classOf": 2005
+        "classOf": 2005,
+        "followers": 4890,
+        "lastActivity": 1777971600000,
+        "NumberConnectionsLastMonth": 31
     },
     {
         "name": "Andrea",
@@ -51,7 +66,10 @@
         "company": "Adyen N.V.",
         "city": "Amsterdam",
         "internationalCountryCodes": "NL",
-        "classOf": 2015
+        "classOf": 2015,
+        "followers": 1150,
+        "lastActivity": 1778912400000,
+        "NumberConnectionsLastMonth": 50
     },
     {
         "name": "Nathan",
@@ -60,7 +78,10 @@
         "company": "Delivery Hero SE",
         "city": "Berlin",
         "internationalCountryCodes": "DE",
-        "classOf": 2020
+        "classOf": 2020,
+        "followers": 2340,
+        "lastActivity": 1780023600000,
+        "NumberConnectionsLastMonth": 11
     },
     {
         "name": "Nicolás",
@@ -69,7 +90,10 @@
         "company": "Klarna Bank AB",
         "city": "Stockholm",
         "internationalCountryCodes": "SE",
-        "classOf": 2011
+        "classOf": 2011,
+        "followers": 3120,
+        "lastActivity": 1778346000000,
+        "NumberConnectionsLastMonth": 45
     },
     {
         "name": "Kacper",
@@ -78,7 +102,10 @@
         "company": "Checkout.com",
         "city": "London",
         "internationalCountryCodes": "UK",
-        "classOf": 2014
+        "classOf": 2014,
+        "followers": 980,
+        "lastActivity": 1779606000000,
+        "NumberConnectionsLastMonth": 19
     },
     {
         "name": "Diego",
@@ -87,7 +114,10 @@
         "company": "Inditex Tech",
         "city": "Arteixo",
         "internationalCountryCodes": "ES",
-        "classOf": 2008
+        "classOf": 2008,
+        "followers": 4150,
+        "lastActivity": 1777701600000,
+        "NumberConnectionsLastMonth": 60
     },
     {
         "name": "Oscar",
@@ -96,7 +126,10 @@
         "company": "BlaBlaCar",
         "city": "Paris",
         "internationalCountryCodes": "FR",
-        "classOf": 2002
+        "classOf": 2002,
+        "followers": 1820,
+        "lastActivity": 1779074400000,
+        "NumberConnectionsLastMonth": 37
     },
     {
         "name": "Nathan",
@@ -105,7 +138,10 @@
         "company": "UiPath",
         "city": "Bucharest",
         "internationalCountryCodes": "RO",
-        "classOf": 2017
+        "classOf": 2017,
+        "followers": 1390,
+        "lastActivity": 1778137200000,
+        "NumberConnectionsLastMonth": 28
     },
     {
         "name": "Santiago",
@@ -114,7 +150,10 @@
         "company": "Skyscanner Ltd",
         "city": "Edinburgh",
         "internationalCountryCodes": "UK",
-        "classOf": 2009
+        "classOf": 2009,
+        "followers": 2760,
+        "lastActivity": 1779830400000,
+        "NumberConnectionsLastMonth": 55
     },
     {
         "name": "Tommaso",
@@ -123,7 +162,10 @@
         "company": "Booking.com",
         "city": "Amsterdam",
         "internationalCountryCodes": "NL",
-        "classOf": 2013
+        "classOf": 2013,
+        "followers": 3200,
+        "lastActivity": 1778526000000,
+        "NumberConnectionsLastMonth": 14
     },
     {
         "name": "Sofia",
@@ -132,16 +174,22 @@
         "company": "Wallbox",
         "city": "Barcelona",
         "internationalCountryCodes": "ES",
-        "classOf": 2025
+        "classOf": 2025,
+        "followers": 610,
+        "lastActivity": 1780300800000,
+        "NumberConnectionsLastMonth": 48
     },
-    {
+        {
         "name": "Charlie",
         "surname": "Wagner",
         "jobPosition": "DevOps Specialist",
         "company": "N26 GmbH",
         "city": "Berlin",
         "internationalCountryCodes": "DE",
-        "classOf": 2016
+        "classOf": 2016,
+        "followers": 2450,
+        "lastActivity": 1779422400000,
+        "NumberConnectionsLastMonth": 22
     },
     {
         "name": "Noah",
@@ -150,7 +198,10 @@
         "company": "Wolt Enterprises Oy",
         "city": "Helsinki",
         "internationalCountryCodes": "FI",
-        "classOf": 2019
+        "classOf": 2019,
+        "followers": 1930,
+        "lastActivity": 1778018400000,
+        "NumberConnectionsLastMonth": 33
     },
     {
         "name": "Kamil",
@@ -159,7 +210,10 @@
         "company": "Criteo S.A.",
         "city": "Paris",
         "internationalCountryCodes": "FR",
-        "classOf": 2004
+        "classOf": 2004,
+        "followers": 4310,
+        "lastActivity": 1779146400000,
+        "NumberConnectionsLastMonth": 41
     },
     {
         "name": "Riccardo",
@@ -168,7 +222,10 @@
         "company": "TransferWise Ltd (Wise)",
         "city": "London",
         "internationalCountryCodes": "UK",
-        "classOf": 2010
+        "classOf": 2010,
+        "followers": 3670,
+        "lastActivity": 1778641200000,
+        "NumberConnectionsLastMonth": 17
     },
     {
         "name": "Mattia",
@@ -177,7 +234,10 @@
         "company": "Personio SE & Co. KG",
         "city": "Munich",
         "internationalCountryCodes": "DE",
-        "classOf": 2022
+        "classOf": 2022,
+        "followers": 1540,
+        "lastActivity": 1779774000000,
+        "NumberConnectionsLastMonth": 52
     },
     {
         "name": "Chloé",
@@ -186,7 +246,10 @@
         "company": "Supercell Oy",
         "city": "Helsinki",
         "internationalCountryCodes": "FI",
-        "classOf": 2014
+        "classOf": 2014,
+        "followers": 2180,
+        "lastActivity": 1778223600000,
+        "NumberConnectionsLastMonth": 26
     },
     {
         "name": "Riccardo",
@@ -195,7 +258,10 @@
         "company": "King Digital Entertainment",
         "city": "London",
         "internationalCountryCodes": "UK",
-        "classOf": 2007
+        "classOf": 2007,
+        "followers": 3990,
+        "lastActivity": 1779494400000,
+        "NumberConnectionsLastMonth": 30
     },
     {
         "name": "Martina",
@@ -204,7 +270,10 @@
         "company": "Cabify",
         "city": "Madrid",
         "internationalCountryCodes": "ES",
-        "classOf": 2020
+        "classOf": 2020,
+        "followers": 1280,
+        "lastActivity": 1778854800000,
+        "NumberConnectionsLastMonth": 49
     },
     {
         "name": "Alejandro",
@@ -213,7 +282,10 @@
         "company": "ASML Holding N.V.",
         "city": "Veldhoven",
         "internationalCountryCodes": "NL",
-        "classOf": 2001
+        "classOf": 2001,
+        "followers": 4720,
+        "lastActivity": 1780131600000,
+        "NumberConnectionsLastMonth": 12
     },
     {
         "name": "Maximilian",
@@ -222,7 +294,10 @@
         "company": "Infineon Technologies AG",
         "city": "Munich",
         "internationalCountryCodes": "DE",
-        "classOf": 2011
+        "classOf": 2011,
+        "followers": 2640,
+        "lastActivity": 1778432400000,
+        "NumberConnectionsLastMonth": 38
     },
     {
         "name": "James",
@@ -231,7 +306,10 @@
         "company": "TeamViewer SE",
         "city": "Göppingen",
         "internationalCountryCodes": "DE",
-        "classOf": 2006
+        "classOf": 2006,
+        "followers": 890,
+        "lastActivity": 1779678000000,
+        "NumberConnectionsLastMonth": 21
     },
     {
         "name": "Lucas",
@@ -240,7 +318,10 @@
         "company": "Spotify Technology S.A.",
         "city": "Stockholm",
         "internationalCountryCodes": "SE",
-        "classOf": 2016
+        "classOf": 2016,
+        "followers": 3410,
+        "lastActivity": 1777899600000,
+        "NumberConnectionsLastMonth": 44
     },
     {
         "name": "Charlie",
@@ -249,7 +330,10 @@
         "company": "Adyen N.V.",
         "city": "Amsterdam",
         "internationalCountryCodes": "NL",
-        "classOf": 2013
+        "classOf": 2013,
+        "followers": 1760,
+        "lastActivity": 1779337200000,
+        "NumberConnectionsLastMonth": 57
     },
     {
         "name": "Paul",
@@ -258,7 +342,10 @@
         "company": "Delivery Hero SE",
         "city": "Berlin",
         "internationalCountryCodes": "DE",
-        "classOf": 2024
+        "classOf": 2024,
+        "followers": 2220,
+        "lastActivity": 1778998800000,
+        "NumberConnectionsLastMonth": 18
     },
     {
         "name": "Louise",
@@ -267,96 +354,10 @@
         "company": "Klarna Bank AB",
         "city": "Stockholm",
         "internationalCountryCodes": "SE",
-        "classOf": 2003
-    },
-    {
-        "name": "Hugo",
-        "surname": "Navarro",
-        "jobPosition": "Data Scientist",
-        "company": "Factorial",
-        "city": "Barcelona",
-        "internationalCountryCodes": "ES",
-        "classOf": 2017
-    },
-    {
-        "name": "Noah",
-        "surname": "Lewandowski",
-        "jobPosition": "Machine Learning Engineer",
-        "company": "Checkout.com",
-        "city": "London",
-        "internationalCountryCodes": "UK",
-        "classOf": 2021
-    },
-    {
-        "name": "Henry",
-        "surname": "Johnson",
-        "jobPosition": "DevOps Specialist",
-        "company": "BlaBlaCar",
-        "city": "Paris",
-        "internationalCountryCodes": "FR",
-        "classOf": 2010
-    },
-    {
-        "name": "Tommaso",
-        "surname": "López",
-        "jobPosition": "Senior Developer",
-        "company": "Bolt Technology OÜ",
-        "city": "Tallinn",
-        "internationalCountryCodes": "EE",
-        "classOf": 2015
-    },
-    {
-        "name": "Francesco",
-        "surname": "Robert",
-        "jobPosition": "Systems Administrator",
-        "company": "UiPath",
-        "city": "Bucharest",
-        "internationalCountryCodes": "RO",
-        "classOf": 2000
-    },
-    {
-        "name": "Louise",
-        "surname": "Díaz",
-        "jobPosition": "Machine Learning Engineer",
-        "company": "Skyscanner Ltd",
-        "city": "Edinburgh",
-        "internationalCountryCodes": "UK",
-        "classOf": 2012
-    },
-    {
-        "name": "Nathan",
-        "surname": "Kamiński",
-        "jobPosition": "Frontend Engineer",
-        "company": "Booking.com",
-        "city": "Amsterdam",
-        "internationalCountryCodes": "NL",
-        "classOf": 2022
-    },
-    {
-        "name": "Paul",
-        "surname": "Durand",
-        "jobPosition": "QA Engineer",
-        "company": "N26 GmbH",
-        "city": "Berlin",
-        "internationalCountryCodes": "DE",
-        "classOf": 2007
-    },
-    {
-        "name": "Leonardo",
-        "surname": "Wójcik",
-        "jobPosition": "Cloud Architect",
-        "company": "Wolt Enterprises Oy",
-        "city": "Helsinki",
-        "internationalCountryCodes": "FI",
-        "classOf": 2018
-    },
-    {
-        "name": "Thomas",
-        "surname": "Fischer",
-        "jobPosition": "Cloud Architect",
-        "company": "Criteo S.A.",
-        "city": "Paris",
-        "internationalCountryCodes": "FR",
-        "classOf": 2014
+        "classOf": 2003,
+        "followers": 4560,
+        "lastActivity": 1780059600000,
+        "NumberConnectionsLastMonth": 36
     }
 ]
+
