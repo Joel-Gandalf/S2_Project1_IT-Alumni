@@ -21,7 +21,7 @@
     align-items: center;
     width: 298px;
     height: 35px;
-    background: var(--background-search-box);
+    background: var(--background-search-box-2);
     border-radius: 6px;
     padding: 0 15px;
     border: 1px solid var(--box-imput-color);
@@ -45,12 +45,11 @@
 }
 
 .networking-search-box label input:focus,
-.search-box label input:active {
+.networking-search-box label input:active {
     outline: none;
 }
 
 .networking-search-box input::placeholder {
-    font-size: 16px;
     color: var(--box-imput-color);
     font-size: 14px;
 }
