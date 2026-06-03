@@ -1,7 +1,7 @@
 import { createNavBar } from '../components/nav-bar-laptop/nav-bar';
 import { createProfileOptions } from "../components/nav-bar-laptop/profile-options";
 // cambiar main
-import { createMainHomeLaptop } from "../components/main-home-laptop/main-home-laptop";
+import { createMainNetworkingLaptop } from '../components/main-networking-laptop/main-networking-laptop';
 import { createFooter } from "../components/footer-laptop/footer";
 
 export const createNetworkingLaptopPage = () => {
@@ -24,8 +24,8 @@ export const createNetworkingLaptopPage = () => {
             app.appendChild(navBar);
         }
 
-        const mainHomeLaptop = createMainHomeLaptop();
-        if (mainHomeLaptop) app.appendChild(mainHomeLaptop);
+        const mainNetworkingLaptop = createMainNetworkingLaptop();
+        if (mainNetworkingLaptop) app.appendChild(mainNetworkingLaptop);
 
         const footer = createFooter();
         if (footer) app.appendChild(footer);
