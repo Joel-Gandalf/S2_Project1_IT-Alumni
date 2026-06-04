@@ -1,6 +1,6 @@
 import './main-networking-laptop.css';
 import searchIcon from '/src/assets/icons/Search.png';
-import { currentFilter } from '../../services/main-networking-service';
+import { currentFilter, getSortedUsers, renderAlumniGridUsers } from '../../services/main-networking-service';
 import type { Filters } from '../../services/main-networking-service';
 
 export const createMainNetworkingLaptop = (): Element | null => {
@@ -29,21 +29,35 @@ export const createMainNetworkingLaptop = (): Element | null => {
     const mainNetworkingLaptopElement = mainNetworkingLaptop.firstElementChild;
 
         if (mainNetworkingLaptopElement) {
+        const gridUsers = mainNetworkingLaptopElement.querySelector('.grid-insert-users')
         const filters = mainNetworkingLaptopElement.querySelectorAll('[data-filter]');
+        
+        const insertCards = (filterType: Filters) => {
+            const studentsToInsert = getSortedUsers(filterType);
+            renderAlumniGridUsers(studentsToInsert, gridUsers)
+        }
+        
         filters.forEach(filter => {
             const filterTo = (filter as HTMLElement).dataset.filter
+            
             if (filterTo === currentFilter) {
                 filter.classList.add('active');
             } else {
-                filter.classList.remove('active')
+                filter.classList.remove('active');
             }
 
             filter.addEventListener('click', (e) => {
                 e.preventDefault();
-                // const filterTo = (filter as HTMLElement).dataset.filter
-                if (filterTo) showUsers(filterTo as Filters)
+                if (filterTo) {
+                    filters.forEach(filter => {
+                        filter.classList.remove('active');
+                    });
+                    filter.classList.add('active');
+                    insertCards(filterTo as Filters);
+                } 
             });
         });
+        insertCards(currentFilter);
     }
 
     return mainNetworkingLaptopElement;

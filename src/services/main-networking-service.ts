@@ -3,7 +3,7 @@ import { createAlumniCard, type AlumniData } from '../components/alumni-card/alu
 
 export type Filters = "recent-activity" | "popular" |"most-connected";
 
-export let currentFilter = "recent-activity";
+export let currentFilter: Filters = "recent-activity";
 
 export const getSortedUsers = (filter: Filters): AlumniData[] => {
     currentFilter = filter;
@@ -31,6 +31,6 @@ export const renderAlumniGridUsers = (studentsToRender: AlumniData[], gridContai
 
     studentsToRender.forEach(student => {
         const card = createAlumniCard(student, isPhone);
-        if (card) gridContainer.appendChild
+        if (card) gridContainer.appendChild(card);
     });
 }
