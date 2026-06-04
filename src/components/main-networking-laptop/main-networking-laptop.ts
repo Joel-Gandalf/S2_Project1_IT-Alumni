@@ -1,5 +1,7 @@
 import './main-networking-laptop.css';
 import searchIcon from '/src/assets/icons/Search.png';
+import { currentFilter } from '../../services/main-networking-service';
+import type { Filters } from '../../services/main-networking-service';
 
 export const createMainNetworkingLaptop = (): Element | null => {
     const mainNetworkingLaptop = document.createElement('div');
