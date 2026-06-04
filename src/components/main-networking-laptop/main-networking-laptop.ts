@@ -3,7 +3,7 @@ import searchIcon from '/src/assets/icons/Search.png';
 
 export const createMainNetworkingLaptop = (): Element | null => {
     const mainNetworkingLaptop = document.createElement('div');
-    
+
     mainNetworkingLaptop.innerHTML = `
     <main class="main-networking-laptop-container">
         <section class="networking-filters-container">
@@ -25,6 +25,24 @@ export const createMainNetworkingLaptop = (): Element | null => {
     `;
 
     const mainNetworkingLaptopElement = mainNetworkingLaptop.firstElementChild;
+
+    if (mainNetworkingLaptopElement) {
+        const filters = mainNetworkingLaptopElement.querySelectorAll('[data-filter]');
+        filters.forEach(filter => {
+            const filterTo = (filter as HTMLElement).dataset.filter
+            if (filterTo === currentFilter) {
+                filter.classList.add('active');
+            } else {
+                filter.classList.remove('active')
+            }
+
+            filter.addEventListener('click', (e) => {
+                e.preventDefault();
+                // const filterTo = (filter as HTMLElement).dataset.filter
+                if (filterTo) showUsers(filterTo as Filters)
+            });
+        });
+    }
 
     return mainNetworkingLaptopElement;
 }
