@@ -26,7 +26,7 @@ export const createMainNetworkingLaptop = (): Element | null => {
 
     const mainNetworkingLaptopElement = mainNetworkingLaptop.firstElementChild;
 
-    if (mainNetworkingLaptopElement) {
+        if (mainNetworkingLaptopElement) {
         const filters = mainNetworkingLaptopElement.querySelectorAll('[data-filter]');
         filters.forEach(filter => {
             const filterTo = (filter as HTMLElement).dataset.filter
