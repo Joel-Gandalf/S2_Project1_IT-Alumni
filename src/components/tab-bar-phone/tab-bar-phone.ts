@@ -66,6 +66,7 @@ export const createTabBar = (): Element | null => {
     // });
 
     const buttons = tabBarElement.querySelectorAll('.button-link');
+
     buttons.forEach(button => {
       const page = (button as HTMLElement).dataset.page;
       if (page === currentPage) {
