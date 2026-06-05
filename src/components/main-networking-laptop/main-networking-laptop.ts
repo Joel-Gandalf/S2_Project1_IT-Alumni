@@ -1,5 +1,7 @@
 import './main-networking-laptop.css';
 import searchIcon from '/src/assets/icons/Search.png';
+import { currentFilter, getSortedUsers, renderAlumniGridUsers } from '../../services/main-networking-service';
+import type { Filters } from '../../services/main-networking-service';
 
 export const createMainNetworkingLaptop = (): Element | null => {
     const mainNetworkingLaptop = document.createElement('div');
@@ -27,21 +29,43 @@ export const createMainNetworkingLaptop = (): Element | null => {
     const mainNetworkingLaptopElement = mainNetworkingLaptop.firstElementChild;
 
         if (mainNetworkingLaptopElement) {
+        const inputSearch = mainNetworkingLaptopElement.querySelector('#networking-search');
+        const gridUsers = mainNetworkingLaptopElement.querySelector('.grid-insert-users');
         const filters = mainNetworkingLaptopElement.querySelectorAll('[data-filter]');
+        
+        const insertCards = (filterType: Filters, searchFullName: string = "") => {
+            const studentsToInsert = getSortedUsers(filterType, searchFullName);
+            renderAlumniGridUsers(studentsToInsert, gridUsers);
+        }
+
+        if (!(inputSearch instanceof HTMLInputElement)) return null; 
+        
+        inputSearch.addEventListener('input', () => {
+            const nameToFind = inputSearch.value;
+            insertCards(currentFilter,nameToFind);
+        });
+        
         filters.forEach(filter => {
-            const filterTo = (filter as HTMLElement).dataset.filter
+            const filterTo = (filter as HTMLElement).dataset.filter;
+            
             if (filterTo === currentFilter) {
                 filter.classList.add('active');
             } else {
-                filter.classList.remove('active')
+                filter.classList.remove('active');
             }
 
             filter.addEventListener('click', (e) => {
                 e.preventDefault();
-                // const filterTo = (filter as HTMLElement).dataset.filter
-                if (filterTo) showUsers(filterTo as Filters)
+                if (filterTo) {
+                    filters.forEach(filter => {
+                        filter.classList.remove('active');
+                    });
+                    filter.classList.add('active');
+                    insertCards(filterTo as Filters, inputSearch.value);
+                } 
             });
         });
+        insertCards(currentFilter, inputSearch.value);
     }
 
     return mainNetworkingLaptopElement;

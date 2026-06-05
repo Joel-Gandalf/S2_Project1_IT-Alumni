@@ -1,16 +1,15 @@
    /* Estilos base comunes */
-
 .alumni-card {
     background-color: var(--text-button-color);
     border-radius: 6px;
     padding: 16px;
     box-shadow: 0px 0px 1px 0px var(--shadow-nav-1), 0px 0px 2px 0px var(--shadow-nav-2);
+    border: 1px solid transparent;
 }
 
 .alumni-info {
     display: flex;
     flex-direction: column;
-    /* mirar */
     gap: 4px;
 }
 
@@ -25,10 +24,8 @@
     color: var(--font-color-nav);
 }
 
-.followers {
-    /* font-size: 13px; */
+.alumni-info .followers {
     color: var(--font-color-nav-special);
-    /* margin-top: 2px; */
 }
 
 /* Variante: Laptop */
@@ -45,8 +42,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 22px;
+    width: 120px;
+    height: 36px;
+    margin-top: 30px;
     background: var(--font-color-nav-special);
     color: var(--text-button-color);
     border: none;
@@ -59,7 +57,7 @@
     border: 1px solid var(--font-color-nav-special);
 }
 
-   /* Variante: Phone */
+/* Variante: Phone */
 
 .alumni-card-phone {
     display: flex;

@@ -4,15 +4,18 @@
     align-items: center;
     width: calc(100% - 144px);
     margin: 0 auto;
+    gap: 35px;
 }
 
 .networking-filters-container {
-    height: 52px;
+    min-height: 52px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 52px; 
+    margin-top: 52px;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .networking-search-box {
@@ -57,7 +60,7 @@
 .networking-filters {
     display: flex;
     gap: 4px;
-    height: 100%; 
+    height: 52px; 
 }
 
 .networking-filters p {
@@ -83,6 +86,7 @@
     border: 4px solid transparent;
     border-radius: 7px;
     padding-top: 2px;
+    white-space: nowrap; 
 }
 
 .networking-filters-box button.active {
@@ -91,12 +95,10 @@
 }
 
 .grid-insert-users {
-    margin-top: 35px;
     width: 100%;
     display: grid;
-
-    /* mirar ancho de targetas */
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 30px;
-    grid-auto-rows: 1fr; 
+    grid-auto-rows: max-content;
+    margin-bottom: 35px;
 }
