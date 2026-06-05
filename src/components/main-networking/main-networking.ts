@@ -1,13 +1,13 @@
-import './main-networking-laptop.css';
+import './main-networking.css';
 import searchIcon from '/src/assets/icons/Search.png';
 import { currentFilter, getSortedUsers, renderAlumniGridUsers } from '../../services/main-networking-service';
 import type { Filters } from '../../services/main-networking-service';
 
-export const createMainNetworkingLaptop = (): Element | null => {
-    const mainNetworkingLaptop = document.createElement('div');
+export const createMainNetworking = (isPhone: boolean = false): Element | null => {
+    const mainNetworking = document.createElement('div');
 
-    mainNetworkingLaptop.innerHTML = `
-    <main class="main-networking-laptop-container">
+    mainNetworking.innerHTML = `
+    <main class="main-networking-container">
         <section class="networking-filters-container">
             <div class="networking-search-box" aria-label="Busqueda de alumnis por nombe">
                 <label><img src="${searchIcon}" alt="Icono lupa busqueda"><input id="networking-search" type="search" placeholder="Cercar alumni..."></label>
@@ -26,16 +26,16 @@ export const createMainNetworkingLaptop = (): Element | null => {
     </main>
     `;
 
-    const mainNetworkingLaptopElement = mainNetworkingLaptop.firstElementChild;
+    const mainNetworkingElement = mainNetworking.firstElementChild;
 
-        if (mainNetworkingLaptopElement) {
-        const inputSearch = mainNetworkingLaptopElement.querySelector('#networking-search');
-        const gridUsers = mainNetworkingLaptopElement.querySelector('.grid-insert-users');
-        const filters = mainNetworkingLaptopElement.querySelectorAll('[data-filter]');
+        if (mainNetworkingElement) {
+        const inputSearch = mainNetworkingElement.querySelector('#networking-search');
+        const gridUsers = mainNetworkingElement.querySelector('.grid-insert-users');
+        const filters = mainNetworkingElement.querySelectorAll('[data-filter]');
         
         const insertCards = (filterType: Filters, searchFullName: string = "") => {
             const studentsToInsert = getSortedUsers(filterType, searchFullName);
-            renderAlumniGridUsers(studentsToInsert, gridUsers);
+            renderAlumniGridUsers(studentsToInsert, gridUsers, isPhone);
         }
 
         if (!(inputSearch instanceof HTMLInputElement)) return null; 
@@ -68,7 +68,7 @@ export const createMainNetworkingLaptop = (): Element | null => {
         insertCards(currentFilter, inputSearch.value);
     }
 
-    return mainNetworkingLaptopElement;
+    return mainNetworkingElement;
 }
 
 
