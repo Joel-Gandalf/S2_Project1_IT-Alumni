@@ -61,11 +61,11 @@ export const createMainNetworkingLaptop = (): Element | null => {
                         filter.classList.remove('active');
                     });
                     filter.classList.add('active');
-                    insertCards(filterTo as Filters);
+                    insertCards(filterTo as Filters, inputSearch.value);
                 } 
             });
         });
-        insertCards(currentFilter);
+        insertCards(currentFilter, inputSearch.value);
     }
 
     return mainNetworkingLaptopElement;
