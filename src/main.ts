@@ -36,7 +36,7 @@ if (app) {
             case 'networking':
                 if (!isAuthentificated) {
                     alert('Has de registrar-te primer!');
-                    createNetworkingPhonePage();
+                    createHomePhonePage();
                     return;
                 }
                 createNetworkingPhonePage();                
@@ -44,7 +44,7 @@ if (app) {
             case 'job-opportunities':
                 if(!isAuthentificated) {
                     alert('Has de registrar-te primer!');
-                    createJobOpportunitiesPhonePage();
+                    createHomePhonePage();
                     return;
                 }
                 createJobOpportunitiesPhonePage();                

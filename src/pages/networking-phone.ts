@@ -1,7 +1,5 @@
 import { createHeaderPhone } from '../components/header-phone/header-phone';
-
-// cambiar main
-import { createMainHomePhone } from "../components/main-home-phone/main-home-phone";
+import { createMainNetworking } from '../components/main-networking/main-networking';
 import { createTabBar } from '../components/tab-bar-phone/tab-bar-phone';
 
 export const createNetworkingPhonePage = () => {
@@ -13,8 +11,8 @@ export const createNetworkingPhonePage = () => {
         const headerPhone = createHeaderPhone('Xarxa', true);
         if (headerPhone) app.appendChild(headerPhone);
 
-        const mainHomePhone = createMainHomePhone();
-        if (mainHomePhone) app.appendChild(mainHomePhone);
+        const mainNetworkingLaptop = createMainNetworking(true);
+        if (mainNetworkingLaptop) app.appendChild(mainNetworkingLaptop);
 
         const tabBar = createTabBar();
         if (tabBar) app.appendChild(tabBar);

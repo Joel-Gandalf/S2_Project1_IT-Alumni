@@ -1,10 +1,10 @@
-.main-networking-laptop-container {
+.main-networking-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(100% - 144px);
+    width: calc(100% - 40px);
     margin: 0 auto;
-    gap: 35px;
+    gap: 20px;
 }
 
 .networking-filters-container {
@@ -13,16 +13,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 52px;
+    margin-top: 10px;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 3px;
 }
 
 .networking-search-box {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 298px;
+    width: 100%;
     height: 35px;
     background: var(--background-search-box-2);
     border-radius: 6px;
@@ -60,7 +60,7 @@
 .networking-filters {
     display: flex;
     gap: 4px;
-    height: 52px; 
+    height: 52px;
 }
 
 .networking-filters p {
@@ -69,12 +69,13 @@
     font-size: 14px;
     color: var(--border-nav);
     border: 4px solid transparent;
+    display: none;
 }
 
 .networking-filters-box {
     display: flex;
     height: 100%;
-    gap: 20px;
+    gap: 7px;
 }
 
 .networking-filters-box button {
@@ -98,7 +99,37 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 30px;
+    gap: 20px;
     grid-auto-rows: max-content;
     margin-bottom: 35px;
+}
+
+@media (min-width: 767px) {
+
+    .main-networking-container {
+        width: calc(100% - 144px);
+        gap: 35px;
+    }
+
+    .networking-filters-container {
+        margin-top: 52px;
+        gap: 12px;
+    }
+
+    .networking-search-box {
+        width: 298px;
+    }
+
+    .networking-filters p {
+        display: flex;
+    }
+
+    .networking-filters-box {
+        height: 100%;
+        gap: 20px;
+    }
+
+    .grid-insert-users {
+        gap: 30px;
+    }
 }

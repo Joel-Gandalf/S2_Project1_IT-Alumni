@@ -1,10 +1,13 @@
-   /* Estilos base comunes */
 .alumni-card {
     background-color: var(--text-button-color);
     border-radius: 6px;
     padding: 16px;
     box-shadow: 0px 0px 1px 0px var(--shadow-nav-1), 0px 0px 2px 0px var(--shadow-nav-2);
     border: 1px solid transparent;
+}
+
+.alumni-card:hover {
+    border: 1px solid var(--font-color-nav-special);
 }
 
 .alumni-info {
@@ -27,8 +30,6 @@
 .alumni-info .followers {
     color: var(--font-color-nav-special);
 }
-
-/* Variante: Laptop */
 
 .alumni-card-laptop {
     display: flex;
@@ -53,10 +54,6 @@
     cursor: pointer;
 }
 
-.alumni-card-laptop:hover {
-    border: 1px solid var(--font-color-nav-special);
-}
-
 /* Variante: Phone */
 
 .alumni-card-phone {
@@ -64,18 +61,22 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* mirar */
     gap: 12px;
     width: 100%;
 }
-/* MIRAR */
+
+.alumni-card-phone:hover {
+    cursor: pointer;
+}
+
 .alumni-card-phone .alumni-info {
     flex: 1;
+    gap: 2px;
 }
 
 .alumni-image-profile {
     width: 112px;
-    height: 80px;
+    height: 90px;
     background-color: var(--background-search-box-2);
     border-radius: 4px;
     flex-shrink: 0;
