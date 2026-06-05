@@ -4,6 +4,7 @@
     bottom: 10px;
     width: 100vw;
     height: 76px;
+    background: var(--text-button-color);
 }
 
 .tab-bar-container ul {
