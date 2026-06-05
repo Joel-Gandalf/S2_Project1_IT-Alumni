@@ -29,16 +29,24 @@ export const createMainNetworkingLaptop = (): Element | null => {
     const mainNetworkingLaptopElement = mainNetworkingLaptop.firstElementChild;
 
         if (mainNetworkingLaptopElement) {
-        const gridUsers = mainNetworkingLaptopElement.querySelector('.grid-insert-users')
+        const inputSearch = mainNetworkingLaptopElement.querySelector('#networking-search');
+        const gridUsers = mainNetworkingLaptopElement.querySelector('.grid-insert-users');
         const filters = mainNetworkingLaptopElement.querySelectorAll('[data-filter]');
         
-        const insertCards = (filterType: Filters) => {
-            const studentsToInsert = getSortedUsers(filterType);
-            renderAlumniGridUsers(studentsToInsert, gridUsers)
+        const insertCards = (filterType: Filters, searchFullName: string = "") => {
+            const studentsToInsert = getSortedUsers(filterType, searchFullName);
+            renderAlumniGridUsers(studentsToInsert, gridUsers);
         }
+
+        if (!(inputSearch instanceof HTMLInputElement)) return null; 
+        
+        inputSearch.addEventListener('input', () => {
+            const nameToFind = inputSearch.value;
+            insertCards(currentFilter,nameToFind);
+        });
         
         filters.forEach(filter => {
-            const filterTo = (filter as HTMLElement).dataset.filter
+            const filterTo = (filter as HTMLElement).dataset.filter;
             
             if (filterTo === currentFilter) {
                 filter.classList.add('active');

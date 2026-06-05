@@ -5,7 +5,7 @@ export type Filters = "recent-activity" | "popular" |"most-connected";
 
 export let currentFilter: Filters = "recent-activity";
 
-export const getSortedUsers = (filter: Filters): AlumniData[] => {
+export const getSortedUsers = (filter: Filters, searchName: string = ""): AlumniData[] => {
     currentFilter = filter;
 
     const studentsToSort = (formerStudents as AlumniData[]).slice();
@@ -22,7 +22,14 @@ export const getSortedUsers = (filter: Filters): AlumniData[] => {
             break;
     }
 
-    return studentsToSort;
+    const studentsFiltered = studentsToSort.filter(student => {
+        const fullName = (`${student.name} ${student.surname}`).toLowerCase();
+        const search = searchName.toLocaleLowerCase();
+        
+        return fullName.includes(search);
+    }); 
+
+    return studentsFiltered;
 }
 
 export const renderAlumniGridUsers = (studentsToRender: AlumniData[], gridContainer: Element | null, isPhone: boolean = false) => {
