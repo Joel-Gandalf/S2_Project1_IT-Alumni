@@ -2,401 +2,361 @@
     {
         "jobPosition": "Senior Developer",
         "employmentType": "Remote opportunity",
-        "datePosted": "1 week",
+        "datePosted": 1780099200000,
         "company": "Revolut Ltd.",
         "remote": true,
         "city": "London",
         "internationalCountryCodes": "UK",
-        "applicationDeadline": "2026-11-20"
+        "applicationDeadline": 1795132800000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Senior Developer",
         "employmentType": "Jornada completa",
-        "datePosted": "3 dies",
+        "datePosted": 1780444800000,
         "company": "Cabify",
         "remote": true,
         "city": "Madrid",
         "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-09-12"
+        "applicationDeadline": 1789171200000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Engineering Manager",
         "employmentType": "Jornada completa",
-        "datePosted": "1 setmana",
+        "datePosted": 1780099200000,
         "company": "Factorial",
         "remote": false,
         "city": "Barcelona",
         "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-11-30"
+        "applicationDeadline": 1795996800000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Frontend Engineer",
         "employmentType": "Oportunitat remota",
-        "datePosted": "5 dies",
+        "datePosted": 1780272000000,
         "company": "Glovo",
         "remote": true,
         "city": "Barcelona",
         "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-10-15"
+        "applicationDeadline": 1792022400000,
+        "jobLevel": "Semi-senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Cloud Architect",
         "employmentType": "Remote opportunity",
-        "datePosted": "2 mesos",
+        "datePosted": 1775520000000,
         "company": "Spotify Technology S.A.",
         "remote": true,
         "city": "Stockholm",
         "internationalCountryCodes": "SE",
-        "applicationDeadline": "2026-07-22"
+        "applicationDeadline": 1784678400000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "DevOps Specialist",
         "employmentType": "Full-time position",
-        "datePosted": "4 dies",
+        "datePosted": 1780358400000,
         "company": "Adyen N.V.",
         "remote": false,
         "city": "Amsterdam",
         "internationalCountryCodes": "NL",
-        "applicationDeadline": "2026-12-05"
+        "applicationDeadline": 1796428800000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Security Analyst",
         "employmentType": "Flexible hours",
-        "datePosted": "3 setmanes",
+        "datePosted": 1778889600000,
         "company": "Delivery Hero SE",
         "remote": true,
         "city": "Berlin",
         "internationalCountryCodes": "DE",
-        "applicationDeadline": "2026-08-19"
+        "applicationDeadline": 1787097600000,
+        "jobLevel": "Semi-senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Backend Engineer",
         "employmentType": "Contract-based role",
-        "datePosted": "1 mes",
+        "datePosted": 1778112000000,
         "company": "Klarna Bank AB",
         "remote": false,
         "city": "Stockholm",
         "internationalCountryCodes": "SE",
-        "applicationDeadline": "2026-06-14"
+        "applicationDeadline": 1781395200000,
+        "jobLevel": "Junior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Data Scientist",
         "employmentType": "Part-time role",
-        "datePosted": "12 dies",
+        "datePosted": 1779667200000,
         "company": "Checkout.com",
         "remote": true,
         "city": "London",
         "internationalCountryCodes": "UK",
-        "applicationDeadline": "2026-11-02"
+        "applicationDeadline": 1793577600000,
+        "jobLevel": "Semi-senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Full Stack Developer",
         "employmentType": "Horas flexibles",
-        "datePosted": "2 dies",
+        "datePosted": 1780531200000,
         "company": "Inditex Tech",
         "remote": false,
         "city": "Arteixo",
         "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-10-28"
+        "applicationDeadline": 1793145600000,
+        "jobLevel": "Semi-senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "UI/UX Designer",
         "employmentType": "Remote opportunity",
-        "datePosted": "2 setmanes",
+        "datePosted": 1779494400000,
         "company": "BlaBlaCar",
         "remote": true,
         "city": "Paris",
         "internationalCountryCodes": "FR",
-        "applicationDeadline": "2026-09-01"
+        "applicationDeadline": 1788220800000,
+        "jobLevel": "Semi-senior",
+        "sector": "Disseny"
     },
     {
         "jobPosition": "QA Engineer",
         "employmentType": "Full-time role",
-        "datePosted": "6 dies",
+        "datePosted": 1780185600000,
         "company": "Bolt Technology OÜ",
         "remote": false,
         "city": "Tallinn",
         "internationalCountryCodes": "EE",
-        "applicationDeadline": "2026-12-20"
+        "applicationDeadline": 1797724800000,
+        "jobLevel": "Junior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Solutions Architect",
         "employmentType": "Contract-based role",
-        "datePosted": "1 mes",
+        "datePosted": 1778112000000,
         "company": "UiPath",
         "remote": true,
         "city": "Bucharest",
         "internationalCountryCodes": "RO",
-        "applicationDeadline": "2026-07-08"
+        "applicationDeadline": 1783468800000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Systems Administrator",
         "employmentType": "Flexible hours",
-        "datePosted": "25 dies",
+        "datePosted": 1778544000000,
         "company": "Skyscanner Ltd",
         "remote": false,
         "city": "Edinburgh",
         "internationalCountryCodes": "UK",
-        "applicationDeadline": "2026-08-31"
+        "applicationDeadline": 1788134400000,
+        "jobLevel": "Semi-senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Machine Learning Engineer",
         "employmentType": "Full-time position",
-        "datePosted": "3 mesos",
+        "datePosted": 1772928000000,
         "company": "Booking.com",
         "remote": true,
         "city": "Amsterdam",
         "internationalCountryCodes": "NL",
-        "applicationDeadline": "2026-06-25"
+        "applicationDeadline": 1782345600000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     },
     {
         "jobPosition": "Embedded Systems Engineer",
         "employmentType": "Trabajo por contrato",
-        "datePosted": "1 setmana",
+        "datePosted": 1780099200000,
         "company": "Wallbox",
         "remote": false,
         "city": "Barcelona",
         "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-11-18"
+        "applicationDeadline": 1794960000000,
+        "jobLevel": "Semi-senior",
+        "sector": "Software"
     },
     {
-        "jobPosition": "Senior Developer",
+        "jobPosition": "Product Designer",
         "employmentType": "Full-time role",
-        "datePosted": "9 dies",
+        "datePosted": 1779926400000,
         "company": "N26 GmbH",
         "remote": true,
         "city": "Berlin",
         "internationalCountryCodes": "DE",
-        "applicationDeadline": "2026-10-10"
+        "applicationDeadline": 1791590400000,
+        "jobLevel": "Senior",
+        "sector": "Disseny"
     },
     {
-        "jobPosition": "DevOps Specialist",
+        "jobPosition": "Growth Marketing Specialist",
         "employmentType": "Remote opportunity",
-        "datePosted": "2 setmanes",
+        "datePosted": 1779494400000,
         "company": "Wolt Enterprises Oy",
         "remote": true,
         "city": "Helsinki",
         "internationalCountryCodes": "FI",
-        "applicationDeadline": "2026-09-30"
+        "applicationDeadline": 1790726400000,
+        "jobLevel": "Semi-senior",
+        "sector": "Marketing"
     },
     {
         "jobPosition": "Security Analyst",
         "employmentType": "Flexible hours",
-        "datePosted": "4 dies",
+        "datePosted": 1780358400000,
         "company": "Criteo S.A.",
         "remote": false,
         "city": "Paris",
         "internationalCountryCodes": "FR",
-        "applicationDeadline": "2026-12-12"
+        "applicationDeadline": 1797033600000,
+        "jobLevel": "Junior",
+        "sector": "Software"
     },
     {
-        "jobPosition": "Backend Engineer",
+        "jobPosition": "Brand Designer",
         "employmentType": "Contract-based role",
-        "datePosted": "1 mes",
+        "datePosted": 1778112000000,
         "company": "TransferWise Ltd (Wise)",
         "remote": true,
         "city": "London",
         "internationalCountryCodes": "UK",
-        "applicationDeadline": "2026-07-15"
+        "applicationDeadline": 1784073600000,
+        "jobLevel": "Semi-senior",
+        "sector": "Disseny"
     },
     {
-        "jobPosition": "Data Scientist",
+        "jobPosition": "SEO & Content Manager",
         "employmentType": "Full-time position",
-        "datePosted": "18 dies",
+        "datePosted": 1779148800000,
         "company": "Personio SE & Co. KG",
         "remote": false,
         "city": "Munich",
         "internationalCountryCodes": "DE",
-        "applicationDeadline": "2026-08-04"
+        "applicationDeadline": 1785715200000,
+        "jobLevel": "Junior",
+        "sector": "Marketing"
     },
     {
-        "jobPosition": "Frontend Engineer",
+        "jobPosition": "UX Research Lead",
         "employmentType": "Part-time role",
-        "datePosted": "2 setmanes",
+        "datePosted": 1779494400000,
         "company": "Supercell Oy",
         "remote": true,
         "city": "Helsinki",
         "internationalCountryCodes": "FI",
-        "applicationDeadline": "2026-11-22"
+        "applicationDeadline": 1795305600000,
+        "jobLevel": "Junior",
+        "sector": "Disseny"
     },
     {
         "jobPosition": "Full Stack Developer",
         "employmentType": "Remote opportunity",
-        "datePosted": "3 dies",
+        "datePosted": 1780444800000,
         "company": "King Digital Entertainment",
         "remote": true,
         "city": "London",
         "internationalCountryCodes": "UK",
-        "applicationDeadline": "2026-10-05"
+        "applicationDeadline": 1791158400000,
+        "jobLevel": "Semi-senior",
+        "sector": "Software"
     },
     {
-        "jobPosition": "Cloud Architect",
+        "jobPosition": "Digital Marketing Manager",
         "employmentType": "Jornada parcial",
-        "datePosted": "1 setmana",
+        "datePosted": 1780099200000,
         "company": "Holaluz",
         "remote": false,
         "city": "Barcelona",
         "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-09-25"
+        "applicationDeadline": 1790294400000,
+        "jobLevel": "Senior",
+        "sector": "Marketing"
     },
     {
-        "jobPosition": "QA Engineer",
+        "jobPosition": "Visual Designer",
         "employmentType": "Flexible hours",
-        "datePosted": "2 mesos",
+        "datePosted": 1775520000000,
         "company": "Infineon Technologies AG",
         "remote": true,
         "city": "Munich",
         "internationalCountryCodes": "DE",
-        "applicationDeadline": "2026-06-30"
+        "applicationDeadline": 1782777600000,
+        "jobLevel": "Junior",
+        "sector": "Disseny"
     },
     {
         "jobPosition": "Solutions Architect",
         "employmentType": "Contract-based role",
-        "datePosted": "12 dies",
+        "datePosted": 1779667200000,
         "company": "TeamViewer SE",
         "remote": true,
         "city": "Göppingen",
         "internationalCountryCodes": "DE",
-        "applicationDeadline": "2026-07-19"
+        "applicationDeadline": 1784428800000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     },
     {
-        "jobPosition": "Engineering Manager",
+        "jobPosition": "Copywriter & Social Media",
         "employmentType": "Oportunitat de teletreball",
-        "datePosted": "2 dies",
+        "datePosted": 1780531200000,
         "company": "Typeform",
         "remote": true,
         "city": "Barcelona",
         "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-11-14"
+        "applicationDeadline": 1794614400000,
+        "jobLevel": "Senior",
+        "sector": "Marketing"
     },
     {
         "jobPosition": "Systems Administrator",
         "employmentType": "Jornada completa",
-        "datePosted": "4 dies",
+        "datePosted": 1780358400000,
         "company": "Idealista",
         "remote": false,
         "city": "Madrid",
         "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-08-22"
+        "applicationDeadline": 1787356800000,
+        "jobLevel": "Semi-senior",
+        "sector": "Software"
     },
     {
-        "jobPosition": "Machine Learning Engineer",
+        "jobPosition": "UI Designer",
         "employmentType": "Full-time position",
-        "datePosted": "3 setmanes",
+        "datePosted": 1778889600000,
         "company": "Spotify Technology S.A.",
         "remote": true,
         "city": "Stockholm",
         "internationalCountryCodes": "SE",
-        "applicationDeadline": "2026-10-09"
+        "applicationDeadline": 1791504000000,
+        "jobLevel": "Senior",
+        "sector": "Disseny"
     },
     {
         "jobPosition": "Senior Developer",
         "employmentType": "Part-time role",
-        "datePosted": "1 setmana",
+        "datePosted": 1780099200000,
         "company": "Adyen N.V.",
         "remote": false,
         "city": "Amsterdam",
         "internationalCountryCodes": "NL",
-        "applicationDeadline": "2026-12-01"
-    },
-    {
-        "jobPosition": "DevOps Specialist",
-        "employmentType": "Remote opportunity",
-        "datePosted": "8 dies",
-        "company": "Delivery Hero SE",
-        "remote": true,
-        "city": "Berlin",
-        "internationalCountryCodes": "DE",
-        "applicationDeadline": "2026-09-17"
-    },
-    {
-        "jobPosition": "Security Analyst",
-        "employmentType": "Flexible hours",
-        "datePosted": "1 mes",
-        "company": "Klarna Bank AB",
-        "remote": false,
-        "city": "Stockholm",
-        "internationalCountryCodes": "SE",
-        "applicationDeadline": "2026-07-11"
-    },
-    {
-        "jobPosition": "Frontend Engineer",
-        "employmentType": "Horaris flexibles",
-        "datePosted": "3 dies",
-        "company": "TravelPerk",
-        "remote": true,
-        "city": "Barcelona",
-        "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-11-05"
-    },
-    {
-        "jobPosition": "Backend Engineer",
-        "employmentType": "Full-time role",
-        "datePosted": "15 dies",
-        "company": "Checkout.com",
-        "remote": false,
-        "city": "London",
-        "internationalCountryCodes": "UK",
-        "applicationDeadline": "2026-08-27"
-    },
-    {
-        "jobPosition": "Data Scientist",
-        "employmentType": "Contract-based role",
-        "datePosted": "2 setmanes",
-        "company": "BlaBlaCar",
-        "remote": true,
-        "city": "Paris",
-        "internationalCountryCodes": "FR",
-        "applicationDeadline": "2026-10-21"
-    },
-    {
-        "jobPosition": "Full Stack Developer",
-        "employmentType": "Full-time position",
-        "datePosted": "6 dies",
-        "company": "Bolt Technology OÜ",
-        "remote": false,
-        "city": "Tallinn",
-        "internationalCountryCodes": "EE",
-        "applicationDeadline": "2026-12-15"
-    },
-    {
-        "jobPosition": "UI/UX Designer",
-        "employmentType": "Trabajo remoto",
-        "datePosted": "1 mes",
-        "company": "Jobandtalent",
-        "remote": true,
-        "city": "Madrid",
-        "internationalCountryCodes": "ES",
-        "applicationDeadline": "2026-06-18"
-    },
-    {
-        "jobPosition": "QA Engineer",
-        "employmentType": "Flexible hours",
-        "datePosted": "4 dies",
-        "company": "UiPath",
-        "remote": false,
-        "city": "Bucharest",
-        "internationalCountryCodes": "RO",
-        "applicationDeadline": "2026-09-09"
-    },
-    {
-        "jobPosition": "Solutions Architect",
-        "employmentType": "Part-time role",
-        "datePosted": "3 setmanes",
-        "company": "Skyscanner Ltd",
-        "remote": true,
-        "city": "Edinburgh",
-        "internationalCountryCodes": "UK",
-        "applicationDeadline": "2026-10-31"
-    },
-    {
-        "jobPosition": "Engineering Manager",
-        "employmentType": "Remote opportunity",
-        "datePosted": "2 mesos",
-        "company": "Booking.com",
-        "remote": true,
-        "city": "Amsterdam",
-        "internationalCountryCodes": "NL",
-        "applicationDeadline": "2026-07-01"
+        "applicationDeadline": 1796083200000,
+        "jobLevel": "Senior",
+        "sector": "Software"
     }
 ]
