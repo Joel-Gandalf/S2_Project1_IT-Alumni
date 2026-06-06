@@ -54,8 +54,6 @@
     cursor: pointer;
 }
 
-/* Variante: Phone */
-
 .alumni-card-phone {
     display: flex;
     flex-direction: row;

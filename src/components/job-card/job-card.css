@@ -1,0 +1,102 @@
+.job-card {
+    background-color: var(--text-button-color);
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0px 0px 1px 0px var(--shadow-nav-1), 0px 0px 2px 0px var(--shadow-nav-2);
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-card:hover {
+    border: 1px solid var(--font-color-nav-special);
+}
+
+.job-basic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.job-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.job-info h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--border-nav); 
+}
+
+.job-info p {
+    font-size: 14px;
+    color: var(--font-color-nav);
+}
+
+/* Resaltamos el puesto de trabajo con el color de título del header */
+/* .job-info p:nth-child(2) {
+    color: var(--border-nav);
+    font-weight: 500;
+} */
+
+.button-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 36px;
+    background: var(--text-button-color);
+    color: var(--font-color-nav-special);
+    border: 1px solid var(--font-color-nav-special);
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.job-image-company {
+    background-color: var(--background-search-box-2);
+    border-radius: 4px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.job-card-laptop {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 24px;
+    width: 100%;
+}
+
+.job-card-laptop .button-details {
+    margin-top: 30px;
+}
+
+.job-card-laptop .job-image-company {
+    width: 140px;
+    height: auto;
+    min-height: 110px;
+}
+
+.job-card-phone {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.job-card-phone .job-info {
+    gap: 2px;
+}
+
+.job-card-phone .button-details {
+    margin-top: 16px;
+}
+
+.job-card-phone .job-image-company {
+    width: 112px;
+    height: 90px;
+}
