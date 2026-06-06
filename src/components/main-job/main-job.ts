@@ -1,10 +1,10 @@
-import './main-job-laptop.css';
+import './main-job.css';
 import searchIcon from '/src/assets/icons/Search.png';
 
-export const createMainJobLaptop = (): Element | null => {
-    const mainJobLaptop = document.createElement('div');
+export const createMainJob = (): Element | null => {
+    const mainJob = document.createElement('div');
 
-    mainJobLaptop.innerHTML = `
+    mainJob.innerHTML = `
     <main class="main-jobs-laptop-container">
 
         <section class="jobs-filters-container">
@@ -39,5 +39,5 @@ export const createMainJobLaptop = (): Element | null => {
     </main>
   `;
 
-    return mainJobLaptop.firstElementChild;
+    return mainJob.firstElementChild;
 }
