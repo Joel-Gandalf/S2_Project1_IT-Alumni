@@ -13,7 +13,7 @@ export const createJobOpportunitiesPhonePage = () => {
         const headerPhone = createHeaderPhone('Portal de feina', true);
         if (headerPhone) app.appendChild(headerPhone);
 
-        const mainJob = createMainJob();
+        const mainJob = createMainJob(true);
         if (mainJob) app.appendChild(mainJob);
 
         const tabBar = createTabBar();
