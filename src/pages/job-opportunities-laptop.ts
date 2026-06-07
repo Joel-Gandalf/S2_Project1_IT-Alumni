@@ -1,7 +1,7 @@
 import { createNavBar } from '../components/nav-bar-laptop/nav-bar';
 import { createProfileOptions } from "../components/nav-bar-laptop/profile-options";
 // cambiar main
-import { createMainJobLaptop } from "../components/main-job-laptop/main-job-laptop";
+import { createMainJob } from "../components/main-job/main-job";
 import { createFooter } from "../components/footer-laptop/footer";
 
 export const createJobOpportunitiesLaptopPage = () => {
@@ -24,8 +24,8 @@ export const createJobOpportunitiesLaptopPage = () => {
             app.appendChild(navBar);
         }
 
-        const mainJobLaptop = createMainJobLaptop();
-        if (mainJobLaptop) app.appendChild(mainJobLaptop);
+        const mainJob = createMainJob();
+        if (mainJob) app.appendChild(mainJob);
 
         const footer = createFooter();
         if (footer) app.appendChild(footer);

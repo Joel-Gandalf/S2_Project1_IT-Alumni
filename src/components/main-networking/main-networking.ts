@@ -28,26 +28,26 @@ export const createMainNetworking = (isPhone: boolean = false): Element | null =
 
     const mainNetworkingElement = mainNetworking.firstElementChild;
 
-        if (mainNetworkingElement) {
+    if (mainNetworkingElement) {
         const inputSearch = mainNetworkingElement.querySelector('#networking-search');
         const gridUsers = mainNetworkingElement.querySelector('.grid-insert-users');
         const filters = mainNetworkingElement.querySelectorAll('[data-filter]');
-        
+
         const insertCards = (filterType: Filters, searchFullName: string = "") => {
             const studentsToInsert = getSortedUsers(filterType, searchFullName);
             renderAlumniGridUsers(studentsToInsert, gridUsers, isPhone);
         }
 
-        if (!(inputSearch instanceof HTMLInputElement)) return null; 
-        
+        if (!(inputSearch instanceof HTMLInputElement)) return null;
+
         inputSearch.addEventListener('input', () => {
             const nameToFind = inputSearch.value;
-            insertCards(currentFilter,nameToFind);
+            insertCards(currentFilter, nameToFind);
         });
-        
+
         filters.forEach(filter => {
             const filterTo = (filter as HTMLElement).dataset.filter;
-            
+
             if (filterTo === currentFilter) {
                 filter.classList.add('active');
             } else {
@@ -62,7 +62,7 @@ export const createMainNetworking = (isPhone: boolean = false): Element | null =
                     });
                     filter.classList.add('active');
                     insertCards(filterTo as Filters, inputSearch.value);
-                } 
+                }
             });
         });
         insertCards(currentFilter, inputSearch.value);
