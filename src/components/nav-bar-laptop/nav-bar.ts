@@ -2,7 +2,7 @@ import './nav-bar.css';
 import logoUrl from '/src/assets/icons/Header.svg';
 import iconRegisterUrl from "/src/assets/icons/Navbar/register.svg";
 import iconProfileUrl from "/src/assets/icons/Navbar/profile.svg";
-import { navigateTo, type Page } from '../../router';
+import { navigateTo, type Page, currentPage } from '../../router';
 
 export const createNavBar = (): null | Element => {
   const navBar = document.createElement('div');
@@ -34,12 +34,40 @@ export const createNavBar = (): null | Element => {
 
   if (navBarElement) {
     const links = navBarElement.querySelectorAll('[data-page]');
+    const menuLinks = navBarElement.querySelectorAll('.navigation-menu a')
+
+    // currentPage = "home";
+    const activePage: Page = currentPage;
+
+    menuLinks.forEach(link => {
+      const linkElement = link as HTMLElement;
+      const pageTo = linkElement.dataset.page as Page;
+
+      if (pageTo === activePage) {
+        linkElement.classList.add('active');
+      } else {
+        linkElement.classList.remove('active');
+      }
+
+    });
 
     links.forEach(link => {
       link.addEventListener("click", (e) => {
         e.preventDefault();
         const linkto = (link as HTMLElement).dataset.page;
-        if (linkto) navigateTo(linkto as Page);
+
+        if (linkto) {
+          navigateTo(linkto as Page);
+
+          const isMenuLink = Array.from(menuLinks).includes(link);
+
+          if (isMenuLink) {
+            menuLinks.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+          } else {
+            menuLinks.forEach(l => l.classList.remove('active'));
+          }
+        }
       });
     });
   }

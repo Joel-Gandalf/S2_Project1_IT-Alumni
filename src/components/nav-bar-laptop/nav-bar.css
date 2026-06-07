@@ -66,6 +66,12 @@
     font-weight: 700;
     font-style: Bold;
     color: var(--font-color-nav-special);
+}
+
+.navigation-menu a.active {
+    font-weight: 700;
+    font-style: Bold;
+    color: var(--font-color-nav-special);
     border-bottom: 4px solid var(--font-color-nav-special);
 }
 
