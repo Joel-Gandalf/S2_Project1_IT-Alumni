@@ -2,26 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(100% - 144px);
+    width: calc(100% - 40px);
     margin: 0 auto;
 }
 
 .jobs-filters-container {
-    height: 52px;
+    min-height: 52px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 52px;
+    margin-top: 10px;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
 }
 
 .jobs-search-box {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 298px;
+    width: 100%;
+    max-width: 298px;
     height: 35px;
     background: var(--background-search-box-2);
     border-radius: 6px;
@@ -37,6 +38,7 @@
 
 .jobs-search-box label img {
     width: 16px;
+    flex-shrink: 0;
 }
 
 .jobs-search-box label input {
@@ -44,6 +46,8 @@
     background: transparent;
     flex-grow: 1;
     padding: 0 10px;
+    width: 100%;
+    min-width: 0;
 }
 
 .jobs-search-box label input:focus,
@@ -58,18 +62,23 @@
 
 .jobs-filters {
     display: flex;
-    gap: 15px;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .jobs-filters label {
     font-size: 14px;
     color: var(--font-color-nav);
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .jobs-filters label select {
     appearance: base-select; 
     width: max-content;
-    padding: 1px 3px;
+    padding: 1px 5px;
     border: 1px solid var(--font-color-nav-special);
     border-radius: 4px;
     color: var(--font-color-nav-special);
@@ -95,12 +104,40 @@
 }
 
 .grid-insert-jobs {
-    margin-top: 35px;
+    margin-top: 25px;
     width: 100%;
     display: grid;
-
-    /* mirar ancho de targetas */
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 30px;
-    grid-auto-rows: 1fr; 
+    gap: 20px;
+    grid-auto-rows: max-content; 
+    margin-bottom: 35px;
+    padding-bottom: 70px; 
+}
+
+@media (min-width: 767px) {
+
+    .main-jobs-laptop-container {
+        width: calc(100% - 144px);
+    }
+
+    .jobs-filters-container {
+        height: 52px;
+        margin-top: 52px;
+    }
+
+    .jobs-search-box {
+        width: 298px;
+    }
+
+    .jobs-filters {
+        width: auto;
+        gap: 20px;
+    }
+
+    .grid-insert-jobs {
+        gap: 30px;
+        margin-top: 35px;
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+        padding-bottom: 0; 
+    }
 }
