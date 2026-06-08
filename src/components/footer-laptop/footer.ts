@@ -76,18 +76,11 @@ export const createFooter = (): Element | null => {
       });
     });
 
-    // const selectLang = footerElement.getElementById('language') as HTMLSelectElement;
-
-    // NO se puede USAR getElementById es un MÉTODO de DOCUMENT, NO de un ELEMENTO. Para buscar dentro de un elemento usas querySelector
-
     const selectLang = footerElement.querySelector('#language') as HTMLSelectElement;
 
     if (selectLang) {
       selectLang.addEventListener('change', () => {
-        // 1. Volvemos a mostrar todas las opciones primero
         Array.from(selectLang.options).forEach(opt => opt.removeAttribute('hidden'));
-
-        // 2. Ocultamos únicamente la opción que el usuario acaba de seleccionar
         const selectedOption = selectLang.options[selectLang.selectedIndex];
         selectedOption.setAttribute('hidden', 'true');
       });

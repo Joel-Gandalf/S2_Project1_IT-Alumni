@@ -1,6 +1,4 @@
 import { createHeaderPhone } from '../components/header-phone/header-phone';
-
-// cambiar main
 import { createMainJob } from "../components/main-job/main-job";
 import { createTabBar } from '../components/tab-bar-phone/tab-bar-phone';
 

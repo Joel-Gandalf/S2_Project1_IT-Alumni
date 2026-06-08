@@ -55,15 +55,6 @@ export const createTabBar = (): Element | null => {
   const tabBarElement = tabBar.firstElementChild;
 
   if (tabBarElement) {
-    // const links = tabBarElement.querySelectorAll('[data-page]');
-
-    // links.forEach(link => {
-    //   link.addEventListener("click", (e) => {
-    //     e.preventDefault();
-    //     const linkto = (link as HTMLElement).dataset.page;
-    //     if (linkto) navigateTo(linkto as Page);
-    //   });
-    // });
 
     const buttons = tabBarElement.querySelectorAll('.button-link');
 
@@ -77,9 +68,7 @@ export const createTabBar = (): Element | null => {
 
       button.addEventListener('click', (e) => {
         e.preventDefault();
-        // NO SIRVE DE NADA AQUÍ PQ al renderizarse pasa por innerHTML= "" y esto destruye todo el DOM, incluido las classes CSS aquí creadas. ARRIBA SÍ FUNCIONA PQ las class se crean al construir la página después de su reseteo.
-        // buttons.forEach(btn => btn.classList.remove('active'));
-        // button.classList.add('active');
+
         const linkto = (button as HTMLElement).dataset.page;
         if (linkto) navigateTo(linkto as Page);
       });
@@ -88,10 +77,3 @@ export const createTabBar = (): Element | null => {
 
   return tabBarElement;
 }
-
-// classList es una propiedad del DOM que te da acceso a las clases CSS de un elemento. Tiene varios métodos útiles:
-
-// .add('clase') — añade una clase
-// .remove('clase') — elimina una clase
-// .toggle('clase') — la añade si no existe, la elimina si existe
-// .contains('clase') — devuelve true o false según si tiene la clase

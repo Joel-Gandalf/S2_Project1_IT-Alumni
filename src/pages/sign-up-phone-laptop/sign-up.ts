@@ -6,7 +6,6 @@ import appleIcon from '/src/assets/icons/Sign-up/Apple.svg';
 import googleIcon from '/src/assets/icons/Sign-up/Google.svg';
 import fecebookIcon from '/src/assets/icons/Sign-up/Facebook.svg';
 import { navigateTo, type Page } from '../../router';
-// import type { Page } from '../../router';
 
 export const creteSignUp = (): Element | null => {
 

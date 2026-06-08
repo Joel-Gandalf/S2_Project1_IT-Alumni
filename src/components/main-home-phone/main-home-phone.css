@@ -64,7 +64,6 @@
 .container-link img{
     width: 100%;
     height: auto;
-    /* Así mantiene la relación de aspecto al reducir tamaño */
     aspect-ratio: 167 / 156;
     border: 1px solid var(--box-imput-color);
     border-radius: 10px;
@@ -99,6 +98,4 @@
     width: 100%;
     margin-top: auto;
 }
-
-/* como los dos .container-link son hijos flex de .container-main, automáticamente tienen la misma altura — es el comportamiento por defecto de flex: align-items: stretch, que estira todos los hijos a la altura del más alto. */
 

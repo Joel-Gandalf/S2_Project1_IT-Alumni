@@ -22,8 +22,6 @@ export const getSortedUsers = (filter: Filters, searchName: string = ""): Alumni
             break;
     }
 
-    //  En programación, siempre es más eficiente filtrar primero y ordenar al final (para no perder tiempo ordenando elementos que luego vas a borrar).
-
     const studentsFiltered = studentsToSort.filter(student => {
         const fullName = (`${student.name} ${student.surname}`).toLowerCase();
         const search = searchName.toLocaleLowerCase();
