@@ -15,7 +15,6 @@
 .job-basic-container {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     flex-grow: 1;
 }
 
@@ -70,34 +69,24 @@
 }
 
 .job-card-laptop .job-basic-container {
-    /* Permite que el bloque de textos absorba todo el espacio restante de forma elástica */
     flex: 1; 
-    /* Evita que el texto largo empuje las paredes de la tarjeta hacia fuera */
     min-width: 0; 
-
     justify-content: start;
 }
 
 .job-card-laptop .job-info {
-    /* 🔥 Separación segura para que el texto largo nunca toque el botón directamente */
     margin-bottom: 24px; 
 }
 
 .job-card-laptop .button-details {
-    /* margin-top: 30px; */
     margin-top: auto;
 }
 
 .job-card-laptop .job-image-company {
     width: 140px;
-    /* height: auto; */
-    /* height: 110px; */
     aspect-ratio: 4 / 3; 
-    /* 🔥 SOLUCIÓN: Alinea la caja arriba con el título en lugar de flotar */
     align-self: center; 
 }
-
-
 
 .job-card-phone {
     flex-direction: row;

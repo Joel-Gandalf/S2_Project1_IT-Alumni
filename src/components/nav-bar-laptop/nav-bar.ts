@@ -6,11 +6,6 @@ import { navigateTo, type Page } from '../../router';
 
 export const createNavBar = (): null | Element => {
   const navBar = document.createElement('div');
-  // const navBar = document.getElementById('insertApp');
-
-  // if (navBar) {
-  // QUITO el IF porque CREATEELEMENT siempre devuelve un HTMLElement vacío
-  // getElementById sí puede devolver null si el elemento no existe en el DOM
 
   navBar.innerHTML = ` <header class="container-header">
       <img src="${logoUrl}" alt="nombre de la aplicación: alumni" class="logo-nav-bar">
@@ -27,9 +22,7 @@ export const createNavBar = (): null | Element => {
       </nav>
     </header>
 `;
-  // }
 
-  // AÑADO firstElementChild SOLO para hacer desaparecer el div envolvente, así al insertarlo div desaparece y header es lo que queda.
   const navBarElement = navBar.firstElementChild;
 
   if (navBarElement) {
@@ -46,15 +39,3 @@ export const createNavBar = (): null | Element => {
 
   return navBarElement;
 }
-
-// DATA-* :   son atributos personalizados de HTML que te permiten guardar información extra en un elemento sin afectar su comportamiento. El * puede ser cualquier nombre que elijas, en este caso page.
-
-// NO SE USA ID : porque si hay muchos id que dirigen al mismo sitio y cada id ha de ser único, el querySelector o el getElemtById se tendrían que repetir mucho y generar mucho código innecesario o hacer un querySelectorAll ('#miId1, #miId2, #miId3'); que genera un nodelist. o querySelectorAll('.clase'), pero es más limpio usar DATA-* PQ SOLO ESTA PENSADO PARA JAVASCRIPT NO PARA CSS.
-
-
-// Se podría usar una clase como class="nav-link-networking" y en JavaScript hacer querySelector('.nav-link-networking'). Funciona pero tiene dos problemas:
-
-// Las clases son para CSS, mezclar responsabilidades confunde el código.
-// Si el link tiene ya otras clases por estilos, la clase de navegación queda enterrada entre las demás.
-
-// data-page es más limpio porque su único propósito es guardar el dato para JavaScript.

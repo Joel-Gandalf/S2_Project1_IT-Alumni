@@ -68,10 +68,7 @@ export const createMainJob = (isPhone: boolean = false): Element | null => {
         filtersJobOffers.forEach(select => {
             const selectElemnt = select as HTMLSelectElement;
             const type = selectElemnt.dataset.filterType;
-            // camelCase Mapping: Al escribir un atributo tipo DATA en el HTML usando guiones, como data-filter-type, el navegador realiza automáticamente los siguientes pasos en memoria:
-                // Elimina el prefijo data- de la ecuación.
-                // Busca los guiones (-) dentro del nombre restante.
-                // Elimina los guiones y convierte la primera letra de la palabra siguiente en MAYÚSCULA (formato camelCase)
+
             if (type === 'remote') selectElemnt.value = remoteFilterOption;
             if (type === 'seniority') selectElemnt.value = seniorityFilterOption;
             if (type === 'sector') selectElemnt.value = laborSectorFilterOption;

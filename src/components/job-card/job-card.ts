@@ -29,10 +29,8 @@ const getRelativePostedTime = (timestampPosted: number): string => {
     
     const differenceInMs = timestampPosted - NOW;
     
-    // Convertimos los milisegundos de diferencia a días enteros
     const differenceInDays = Math.round(differenceInMs / (1000 * 60 * 60 * 24));
 
-    // Si la diferencia es menor de 7 días, devolvemos el formato en días
     if (Math.abs(differenceInDays) < 7) {
         return formatterDatePosted.format(differenceInDays, 'day');
     }

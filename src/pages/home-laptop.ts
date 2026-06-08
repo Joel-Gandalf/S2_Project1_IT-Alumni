@@ -9,8 +9,7 @@ export const createHomeLaptopPage = () => {
     const app = document.getElementById('insertApp');
 
     if (app) {
-        // meto la llamada a la función en una const pq sino en appendChild estaría añadiendo un resultado diferente al comprobado en el if.
-        // Si navBar no es null, es un Element:
+
         const navBar = createNavBar();
         if (navBar) {
             if (isAuthentificated) {
