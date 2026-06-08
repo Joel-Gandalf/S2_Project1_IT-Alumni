@@ -1,0 +1,83 @@
+.alumni-card {
+    background-color: var(--text-button-color);
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0px 0px 1px 0px var(--shadow-nav-1), 0px 0px 2px 0px var(--shadow-nav-2);
+    border: 1px solid transparent;
+}
+
+.alumni-card:hover {
+    border: 1px solid var(--font-color-nav-special);
+}
+
+.alumni-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.alumni-info h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--border-nav);
+}
+
+.alumni-info p {
+    font-size: 14px;
+    color: var(--font-color-nav);
+}
+
+.alumni-info .followers {
+    color: var(--font-color-nav-special);
+}
+
+.alumni-card-laptop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+}
+
+.button-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 36px;
+    margin-top: 30px;
+    background: var(--font-color-nav-special);
+    color: var(--text-button-color);
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.alumni-card-phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.alumni-card-phone:hover {
+    cursor: pointer;
+}
+
+.alumni-card-phone .alumni-info {
+    flex: 1;
+    gap: 2px;
+}
+
+.alumni-image-profile {
+    width: 112px;
+    height: 90px;
+    background-color: var(--background-search-box-2);
+    border-radius: 4px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+}

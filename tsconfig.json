@@ -6,6 +6,10 @@
     "types": ["vite/client"],
     "skipLibCheck": true,
 
+    /* Habilitar la importación de archivos JSON */
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
